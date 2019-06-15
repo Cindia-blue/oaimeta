@@ -1,0 +1,337 @@
+Options::jsonConfig            : /usr/local/etc/oai/hss_rel14.json
+Options::diameterconfiguration : /usr/local/etc/oai/freeDiameter/hss_rel14_fd.conf
+Options::cassserver            : 127.0.0.1
+Options::cassuser              : root
+Options::casspwd               : root
+Options::cassdb                : vhss
+Options::randvector            : 1
+Options::roamallow             : 1
+Options::optkey                : 1006020f0a478bf6b699f15c062e42b3
+Options::reloadkey             : 0
+Options::onlyloadkey           : 0
+Options::gtwport               : 9080
+Options::gtwhost               : *
+Options::resthost              : 9081
+Options::synchimsi             : 
+Options::synchauts             : 
+Initialized random
+09:24:45  NOTI   libfdproto '1.2.1' initialized.
+09:24:45  NOTI   libgnutls '3.5.18' initialized.
+09:24:45  NOTI   HASHLIST is enabled
+09:24:45  NOTI   libfdcore '1.2.1' initialized.
+09:24:45  NOTI   Loading (acl_wl) extension.
+09:24:45  NOTI   Extension ACL_wl initialized with configuration: '/usr/local/etc/oai/freeDiameter/acl.conf'
+09:24:45  NOTI   Loading (dict_3gpp2_avps) extension.
+09:24:45  NOTI   Loading (dict_draftload_avps) extension.
+09:24:45  NOTI   Loading (dict_etsi283034_avps) extension.
+09:24:45  NOTI   Loading (dict_rfc4004_avps) extension.
+09:24:45  NOTI   Loading (dict_rfc4006bis_avps) extension.
+09:24:45  NOTI   Loading (dict_rfc4072_avps) extension.
+09:24:45  NOTI   Loading (dict_rfc4590_avps) extension.
+09:24:45  NOTI   Loading (dict_rfc5447_avps) extension.
+09:24:45  NOTI   Loading (dict_rfc5580_avps) extension.
+09:24:45  NOTI   Loading (dict_rfc5777_avps) extension.
+09:24:45  NOTI   An error occurred while adding the following data in the dictionary: data: (INTEGER32   ) "IPTM" -> 84
+09:24:45  NOTI   Conflicting entry in the dictionary: {dictobj}(@0x55e511bf3690): ENUMVAL p:0x55e511beae90 data: (INTEGER32   ) "TTP" -> 84
+09:24:45  NOTI   Loading (dict_rfc5778_avps) extension.
+09:24:45  NOTI   Loading (dict_rfc6734_avps) extension.
+09:24:45  NOTI   Loading (dict_rfc6942_avps) extension.
+09:24:45  NOTI   Loading (dict_rfc7155_avps) extension.
+09:24:45  NOTI   Loading (dict_rfc7683_avps) extension.
+09:24:45  NOTI   Loading (dict_rfc7944_avps) extension.
+09:24:45  NOTI   Loading (dict_ts29061_avps) extension.
+09:24:45  NOTI   Loading (dict_ts29128_avps) extension.
+09:24:45  NOTI   Loading (dict_ts29154_avps) extension.
+09:24:45  NOTI   Loading (dict_ts29173_avps) extension.
+09:24:45  NOTI   Loading (dict_ts29212_avps) extension.
+09:24:45  NOTI   Loading (dict_ts29214_avps) extension.
+09:24:45  NOTI   Loading (dict_ts29215_avps) extension.
+09:24:45  NOTI   Loading (dict_ts29217_avps) extension.
+09:24:45  NOTI   Loading (dict_ts29229_avps) extension.
+09:24:45  NOTI   Loading (dict_ts29272_avps) extension.
+09:24:45  NOTI   Loading (dict_ts29273_avps) extension.
+09:24:45  NOTI   Loading (dict_ts29329_avps) extension.
+09:24:45  NOTI   An error occurred while adding the following data in the dictionary: data: v/m:VM/VM,  OCTETSTRING, 702    "User-Data"
+09:24:45  NOTI   Conflicting entry in the dictionary: {dictobj}(@0x55e511c7cd50): AVP p:(nil) data: v/m:VM/VM,  OCTETSTRING, 606    "User-Data"
+09:24:45  NOTI   Loading (dict_ts29336_avps) extension.
+09:24:45  NOTI   Loading (dict_ts29337_avps) extension.
+09:24:45  NOTI   Loading (dict_ts29338_avps) extension.
+09:24:45  NOTI   Loading (dict_ts29343_avps) extension.
+09:24:45  NOTI   Loading (dict_ts29344_avps) extension.
+09:24:45  NOTI   Loading (dict_ts29345_avps) extension.
+09:24:45  NOTI   An error occurred while adding the following data in the dictionary: data: v/m:VM/VM,   UNSIGNED32, 3818   "Time-Window"
+09:24:45  NOTI   Conflicting entry in the dictionary: {dictobj}(@0x55e511c41bb0): AVP p:(nil) data: v/m:VM/VM,      GROUPED, 4204   "Time-Window"
+09:24:45  NOTI   Loading (dict_ts29368_avps) extension.
+09:24:45  NOTI   Loading (dict_ts29468_avps) extension.
+09:24:45  NOTI   An error occurred while adding the following data in the dictionary: data: v/m:V-/VM,  OCTETSTRING, 3522   "MBMS-GW-SSM-IP-Address"
+09:24:45  NOTI   Conflicting entry in the dictionary: {dictobj}(@0x55e511c3c220): AVP p:(nil) data: v/m:V-/VM,  OCTETSTRING, 924    "MBMS-GW-SSM-IP-Address"
+09:24:45  NOTI   Loading (dict_ts32299_avps) extension.
+09:24:45  NOTI   An error occurred while adding the following data in the dictionary: data: (INTEGER32   ) "Active" -> 0
+09:24:45  NOTI   Conflicting entry in the dictionary: {dictobj}(@0x55e511c43fd0): ENUMVAL p:0x55e511c43d70 data: (INTEGER32   ) "ACTIVE" -> 0
+09:24:45  NOTI   An error occurred while adding the following data in the dictionary: data: (INTEGER32   ) "Inactive" -> 1
+09:24:45  NOTI   Conflicting entry in the dictionary: {dictobj}(@0x55e511c44190): ENUMVAL p:0x55e511c43d70 data: (INTEGER32   ) "INACTIVE" -> 1
+09:24:45  NOTI   An error occurred while adding the following data in the dictionary: data: v/m:VM/VM,    INTEGER32, 4406   "3GPP-PS-Data-Off-Status"
+09:24:45  NOTI   Conflicting entry in the dictionary: {dictobj}(@0x55e511c44310): AVP p:0x55e511c43d70 data: v/m:V-/VM,    INTEGER32, 2847   "3GPP-PS-Data-Off-Status"
+09:24:45  NOTI   An error occurred while adding the following data in the dictionary: data: v/m:VM/VM,  OCTETSTRING, 3462   "Radio-Frequency"
+09:24:45  NOTI   Conflicting entry in the dictionary: {dictobj}(@0x55e511cdebd0): AVP p:(nil) data: v/m:VM/VM,   UNSIGNED32, 3508   "Radio-Frequency"
+09:24:45  NOTI   Loading (dict_s6as6d) extension.
+09:24:45  NOTI   Loading (dict_s6t) extension.
+09:24:45  NOTI   Loading (dict_s6c) extension.
+09:24:45  NOTI   An error occurred while adding the following data in the dictionary: data: (UNSIGNED32  ) "Permanent_Failures" -> 3
+09:24:45  NOTI   Conflicting entry in the dictionary: {dictobj}(@0x55e511d37140): ENUMVAL p:0x55e511b9ac80 data: (UNSIGNED32  ) "MME_SGSN_behaviour" -> 3
+09:24:45  NOTI   Unable to  resolve symbol 'fd_ext_init2' for extension /usr/local/lib/freeDiameter/acl_wl.fdx: 
+09:24:45  NOTI   All extensions loaded.
+09:24:45  NOTI   freeDiameter configuration:
+09:24:45  NOTI     Default trace level .... : +3
+09:24:45  NOTI     Configuration file ..... : /usr/local/etc/oai/freeDiameter/hss_rel14_fd.conf
+09:24:45  NOTI     Diameter Identity ...... : hss.ng4T.com (l:12)
+09:24:45  NOTI     Diameter Realm ......... : ng4T.com (l:8)
+09:24:45  NOTI     Tc Timer ............... : 30
+09:24:45  NOTI     Tw Timer ............... : 30
+09:24:45  NOTI     Local port ............. : 3868
+09:24:45  NOTI     Local secure port ...... : 5868
+09:24:45  NOTI     Number of SCTP streams . : 3
+09:24:45  NOTI     Number of clients thr .. : 5
+09:24:45  NOTI     Number of app threads .. : 4
+09:24:45  NOTI     Local endpoints ........ : Default (use all available)
+09:24:45  NOTI     Local applications ..... : (none)
+09:24:45  NOTI     Flags : - IP ........... : Enabled
+09:24:45  NOTI             - IPv6 ......... : DISABLED
+09:24:45  NOTI             - Relay app .... : DISABLED
+09:24:45  NOTI             - TCP .......... : Enabled
+09:24:45  NOTI             - SCTP ......... : DISABLED (at compilation)
+09:24:45  NOTI             - Pref. proto .. : TCP
+09:24:45  NOTI             - TLS method ... : Separate port
+09:24:45  NOTI     TLS :   - Certificate .. : /usr/local/etc/oai/freeDiameter/hss.cert.pem
+09:24:45  NOTI             - Private key .. : /usr/local/etc/oai/freeDiameter/hss.key.pem
+09:24:45  NOTI             - CA (trust) ... : /usr/local/etc/oai/freeDiameter/cacert.pem (1 certs)
+09:24:45  NOTI             - CRL .......... : (none)
+09:24:45  NOTI             - Priority ..... : (default: 'NORMAL')
+09:24:45  NOTI             - DH bits ...... : 1024
+09:24:45  NOTI     Origin-State-Id ........ : 1560615885
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/acl_wl.fdx'[/usr/local/etc/oai/freeDiameter/acl.conf], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_3gpp2_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_draftload_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_etsi283034_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc4004_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc4006bis_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc4072_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc4590_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc5447_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc5580_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc5777_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc5778_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc6734_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc6942_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc7155_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc7683_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc7944_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29061_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29128_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29154_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29173_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29212_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29214_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29215_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29217_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29229_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29272_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29273_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29329_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29336_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29337_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29338_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29343_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29344_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29345_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29368_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29468_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts32299_avps.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_S6as6d.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_S6t.fdx'[(no config file)], loaded
+09:24:45  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_S6c.fdx'[(no config file)], loaded
+Connecting to cassandra host: 127.0.0.1
+Registering s6t dictionary
+Registering s6t command handlers
+Registering COIR command handler
+Registering NIIR command handler
+Registering s6as6d dictionary
+Registering s6as6d command handlers
+Registering UPLR command handler
+Registering AUIR command handler
+Registering PUUR command handler
+Registering s6c dictionary
+Registering s6c command handlers
+Registering SERIFSR command handler
+09:24:45  NOTI   Local server address(es): 10.118.75.185{---L-}	12.1.1.11{---L-}	12.2.1.13{---L-}	172.16.1.102{---L-}	172.16.1.104{---L-}	172.55.55.101{---L-}	172.55.55.102{---L-}	172.58.58.101{---L-}	172.58.58.102{---L-}	192.168.10.110{---L-}	192.168.247.102{---L-}	192.168.247.111{---L-}	192.168.248.159{---L-}
+The freeDiameter engine has been started
+Started REST server on port [9081]
+09:24:45  NOTI   Unable to resolve address for peer 'mme.localdomain' (Name or service not known), aborting
+09:24:45  ERROR  mme.localdomain: Going to ZOMBIE state (no more activity)
+09:24:45  NOTI   'STATE_CLOSED'	-> 'STATE_ZOMBIE' (terminated)	'mme.localdomain'
+SELECT idmmeidentity FROM vhss.mmeidentity_host WHERE mmehost='mme.ng4T.com';
+Accepting mme.ng4T.com peer
+09:24:46  NOTI   Connected to 'mme.ng4T.com' (TCP,soc#20), remote capabilities: 
+09:24:46  NOTI      Capabilities-Exchange-Request(257)[R---], Length=400, Hop-By-Hop-Id=0x2fb4037f, End-to-End=0xbce5a6c9, { Origin-Host(264)[-M]="mme.ng4T.com" }, { Origin-Realm(296)[-M]="ng4T.com" }, { Origin-State-Id(278)[-M]=1560615886 (0x5d051bce) }, { Host-IP-Address(257)[-M]=10.118.75.185 }, { Host-IP-Address(257)[-M]=12.1.1.11 }, { Host-IP-Address(257)[-M]=12.2.1.13 }, { Host-IP-Address(257)[-M]=172.16.1.102 }, { Host-IP-Address(257)[-M]=172.16.1.104 }, { Host-IP-Address(257)[-M]=172.55.55.101 }, { Host-IP-Address(257)[-M]=172.55.55.102 }, { Host-IP-Address(257)[-M]=172.58.58.101 }, { Host-IP-Address(257)[-M]=172.58.58.102 }, { Host-IP-Address(257)[-M]=192.168.10.110 }, { Host-IP-Address(257)[-M]=192.168.247.102 }, { Host-IP-Address(257)[-M]=192.168.247.111 }, { Host-IP-Address(257)[-M]=192.168.248.159 }, { Vendor-Id(266)[-M]=0 (0x0) }, { Product-Name(269)[--]="freeDiameter" }, { Firmware-Revision(267)[--]=10201 (0x27d9) }, { Inband-Security-Id(299)[-M]='NO_INBAND_SECURITY' (0 (0x0)) }, { Vendor-Specific-Application-Id(260)[-M]={ Auth-Application-Id(258)[-M]=16777251 (0x1000023) }, { Vendor-Id(266)[-M]=10415 (0x28af) } }, { Supported-Vendor-Id(265)[-M]=5535 (0x159f) }, { Supported-Vendor-Id(265)[-M]=10415 (0x28af) }, { Supported-Vendor-Id(265)[-M]=13019 (0x32db) }
+09:24:46  NOTI   No TLS protection negotiated with peer 'mme.ng4T.com'.
+09:24:46  NOTI   'STATE_CLOSED'	-> 'STATE_OPEN'	'mme.ng4T.com'
+'Authentication-Information-Request'
+  Version: 0x01
+  Length: 228
+  Flags: 0xC0 (RP--)
+  Command Code: 318
+  ApplicationId: 16777251
+  Hop-by-Hop Identifier: 0x2FB40380
+  End-to-End Identifier: 0x00000000
+   {internal data}: src:mme.ng4T.com(12) rwb:(nil) rt:1 cb:(nil),(nil)((nil)) qry:(nil) asso:0 sess:0x7f07f0000d70
+   AVP: 'Session-Id'(263) l=40 f=-M val="mme.ng4T.com;1560615886;1;apps6a"
+   AVP: 'Auth-Session-State'(277) l=12 f=-M val='NO_STATE_MAINTAINED' (1 (0x1))
+   AVP: 'Origin-Host'(264) l=20 f=-M val="mme.ng4T.com"
+   AVP: 'Origin-Realm'(296) l=16 f=-M val="ng4T.com"
+   AVP: 'Destination-Host'(293) l=20 f=-M val="hss.ng4T.com"
+   AVP: 'Destination-Realm'(283) l=16 f=-M val="ng4T.com"
+   AVP: 'User-Name'(1) l=23 f=-M val="001011234561001"
+   AVP: 'Visited-PLMN-Id'(1407) vend='3GPP'(10415) l=15 f=VM val=<00 F1 10>
+   AVP: 'Requested-EUTRAN-Authentication-Info'(1408) vend='3GPP'(10415) l=44 f=VM val=(grouped)
+      AVP: 'Number-Of-Requested-Vectors'(1410) vend='3GPP'(10415) l=16 f=VM val=1 (0x1)
+      AVP: 'Immediate-Response-Preferred'(1412) vend='3GPP'(10415) l=16 f=VM val=0 (0x0)
+   AVP: 'Route-Record'(282) l=8 f=-M val="mme.ng4T.com"
+SELECT key,sqn,rand,OPc FROM vhss.users_imsi WHERE imsi='001011234561001';
+Generated random
+RijndaelKeySchedule: K FEC86BA6EB707ED08905757B1BB44B8F
+MAC_A   : 6a.32.c1.0d.ff.df.45.7c.
+SQN     : 00.00.00.00.01.60.
+RAND    : 1f.81.2e.27.36.72.28.3b.c2.97.e4.6b.34.13.a0.14.
+RijndaelKeySchedule: K FEC86BA6EB707ED08905757B1BB44B8F
+AK      : 5a.21.39.b9.52.6a.
+CK      : 43.cb.53.52.f7.e2.13.dc.aa.5f.36.c8.f6.db.d8.65.
+IK      : 9c.57.c2.eb.b6.44.fd.b3.4b.a5.63.55.fd.3f.b7.07.
+XRES    : 5c.fc.d1.83.d8.41.08.fc.
+AUTN    : 5a.21.39.b9.53.0a.80.00.6a.32.c1.0d.ff.df.45.7c.
+0x43 0xcb 0x53 0x52 0xf7 0xe2 0x13 0xdc 0xaa 0x5f 0x36 0xc8 0xf6 0xdb 0xd8 0x65 0x9c 0x57 0xc2 0xeb 0xb6 0x44 0xfd 0xb3 0x4b 0xa5 0x63 0x55 0xfd 0x3f 0xb7 0x07 
+0x10 0x00 0xf1 0x10 0x00 0x03 0x5a 0x21 0x39 0xb9 0x53 0x0a 0x00 0x06 
+KASME   : 41.45.66.7e.1e.eb.ce.90.a5.22.31.17.d1.3a.c0.05.19.66.09.9f.20.e4.8b.19.ab.eb.44.a5.aa.f9.fb.ba.
+sqn=00.00.00.00.01.60. eu.u8[]=60.01.00.00.00.00.00.00. eu.u64=352 rand=[1f812e273672283bc297e46b3413a014]
+UPDATE vhss.users_imsi SET rand='1f812e273672283bc297e46b3413a014', sqn=352 WHERE imsi='001011234561001';
+UPDATE vhss.users_imsi SET sqn =384 WHERE imsi='001011234561001';
+'Authentication-Information-Answer'
+  Version: 0x01
+  Length: 20
+  Flags: 0x40 (-P--)
+  Command Code: 318
+  ApplicationId: 16777251
+  Hop-by-Hop Identifier: 0x2FB40380
+  End-to-End Identifier: 0x00000000
+   {internal data}: src:(nil)(0) rwb:(nil) rt:0 cb:(nil),(nil)((nil)) qry:0x7f07d4000b40 asso:0 sess:0x7f07f0000d70
+   AVP: 'Session-Id'(263) l=8 f=-M val="mme.ng4T.com;1560615886;1;apps6a"
+   AVP: 'Origin-Host'(264) l=8 f=-M val="hss.ng4T.com"
+   AVP: 'Origin-Realm'(296) l=8 f=-M val="ng4T.com"
+   AVP: 'Auth-Session-State'(277) l=12 f=-M val='NO_STATE_MAINTAINED' (1 (0x1))
+   AVP: 'Authentication-Info'(1413) vend='3GPP'(10415) l=12 f=VM val=(grouped)
+      AVP: 'E-UTRAN-Vector'(1414) vend='3GPP'(10415) l=12 f=VM val=(grouped)
+         AVP: 'RAND'(1447) vend='3GPP'(10415) l=12 f=VM val=<1F 81 2E 27 36 72 28 3B C2 97 E4 6B 34 13 A0 14>
+         AVP: 'XRES'(1448) vend='3GPP'(10415) l=12 f=VM val=<5C FC D1 83 D8 41 08 FC>
+         AVP: 'AUTN'(1449) vend='3GPP'(10415) l=12 f=VM val=<5A 21 39 B9 53 0A 80 00 6A 32 C1 0D FF DF 45 7C>
+         AVP: 'KASME'(1450) vend='3GPP'(10415) l=12 f=VM val=<41 45 66 7E 1E EB CE 90 A5 22 31 17 D1 3A C0 05 19 66 09 9F 20 E4 8B 19 AB EB 44 A5 AA F9 FB BA>
+   AVP: 'Result-Code'(268) l=12 f=-M val='DIAMETER_SUCCESS' (2001 (0x7d1))
+'Update-Location-Request'
+  Version: 0x01
+  Length: 216
+  Flags: 0xC0 (RP--)
+  Command Code: 316
+  ApplicationId: 16777251
+  Hop-by-Hop Identifier: 0x2FB40381
+  End-to-End Identifier: 0x00000000
+   {internal data}: src:mme.ng4T.com(12) rwb:(nil) rt:1 cb:(nil),(nil)((nil)) qry:(nil) asso:0 sess:0x7f07fc000c10
+   AVP: 'Session-Id'(263) l=40 f=-M val="mme.ng4T.com;1560615886;2;apps6a"
+   AVP: 'Auth-Session-State'(277) l=12 f=-M val='NO_STATE_MAINTAINED' (1 (0x1))
+   AVP: 'Origin-Host'(264) l=20 f=-M val="mme.ng4T.com"
+   AVP: 'Origin-Realm'(296) l=16 f=-M val="ng4T.com"
+   AVP: 'Destination-Host'(293) l=20 f=-M val="hss.ng4T.com"
+   AVP: 'Destination-Realm'(283) l=16 f=-M val="ng4T.com"
+   AVP: 'User-Name'(1) l=23 f=-M val="001011234561001"
+   AVP: 'Visited-PLMN-Id'(1407) vend='3GPP'(10415) l=15 f=VM val=<00 F1 10>
+   AVP: 'RAT-Type'(1032) vend='3GPP'(10415) l=16 f=V- val=1004 (0x3ec)
+   AVP: 'ULR-Flags'(1405) vend='3GPP'(10415) l=16 f=VM val=34 (0x22)
+   AVP: 'Route-Record'(282) l=8 f=-M val="mme.ng4T.com"
+SELECT id from vhss.global_ids WHERE table_name='vhss.mmeidentity';
+SELECT idmmeidentity FROM vhss.mmeidentity_host WHERE mmehost='mme.ng4T.com';
+UPDATE vhss.users_imsi SET mmeidentity_idmmeidentity=3,mmehost='mme.ng4T.com',mmerealm='ng4T.com',ms_ps_status='ATTACHED',visited_plmnid='00F110' WHERE imsi='001011234561001';
+'Update-Location-Answer'
+  Version: 0x01
+  Length: 20
+  Flags: 0x40 (-P--)
+  Command Code: 316
+  ApplicationId: 16777251
+  Hop-by-Hop Identifier: 0x2FB40381
+  End-to-End Identifier: 0x00000000
+   {internal data}: src:(nil)(0) rwb:(nil) rt:0 cb:(nil),(nil)((nil)) qry:0x7f07d0001df0 asso:0 sess:0x7f07fc000c10
+   AVP: 'Session-Id'(263) l=8 f=-M val="mme.ng4T.com;1560615886;2;apps6a"
+   AVP: 'Origin-Host'(264) l=8 f=-M val="hss.ng4T.com"
+   AVP: 'Origin-Realm'(296) l=8 f=-M val="ng4T.com"
+   AVP: 'Auth-Session-State'(277) l=12 f=-M val='NO_STATE_MAINTAINED' (1 (0x1))
+   AVP: 'ULA-Flags'(1406) vend='3GPP'(10415) l=16 f=VM val=1 (0x1)
+   AVP: 'Subscription-Data'(1400) vend='3GPP'(10415) l=12 f=VM val=(grouped)
+      AVP: 'Access-Restriction-Data'(1426) vend='3GPP'(10415) l=16 f=VM val=41 (0x29)
+      AVP: 'Subscriber-Status'(1424) vend='3GPP'(10415) l=16 f=VM val='SERVICE_GRANTED' (0 (0x0))
+      AVP: 'Network-Access-Mode'(1417) vend='3GPP'(10415) l=16 f=VM val='ONLY_PACKET' (2 (0x2))
+      AVP: 'Regional-Subscription-Zone-Code'(1446) vend='3GPP'(10415) l=12 f=VM val=<01 23>
+      AVP: 'Regional-Subscription-Zone-Code'(1446) vend='3GPP'(10415) l=12 f=VM val=<45 67>
+      AVP: 'Regional-Subscription-Zone-Code'(1446) vend='3GPP'(10415) l=12 f=VM val=<89 AB>
+      AVP: 'Regional-Subscription-Zone-Code'(1446) vend='3GPP'(10415) l=12 f=VM val=<CD EF>
+      AVP: 'Regional-Subscription-Zone-Code'(1446) vend='3GPP'(10415) l=12 f=VM val=<12 34>
+      AVP: 'Regional-Subscription-Zone-Code'(1446) vend='3GPP'(10415) l=12 f=VM val=<56 78>
+      AVP: 'Regional-Subscription-Zone-Code'(1446) vend='3GPP'(10415) l=12 f=VM val=<9A BC>
+      AVP: 'Regional-Subscription-Zone-Code'(1446) vend='3GPP'(10415) l=12 f=VM val=<DE F0>
+      AVP: 'Regional-Subscription-Zone-Code'(1446) vend='3GPP'(10415) l=12 f=VM val=<23 45>
+      AVP: 'Regional-Subscription-Zone-Code'(1446) vend='3GPP'(10415) l=12 f=VM val=<67 89>
+      AVP: 'MSISDN'(701) vend='3GPP'(10415) l=12 f=VM val=<30 78 31 30 31 31 32 33 34 35 36 31 30 30 31>
+      AVP: 'AMBR'(1435) vend='3GPP'(10415) l=12 f=VM val=(grouped)
+         AVP: 'Max-Requested-Bandwidth-UL'(516) vend='3GPP'(10415) l=16 f=VM val=50000000 (0x2faf080)
+         AVP: 'Max-Requested-Bandwidth-DL'(515) vend='3GPP'(10415) l=16 f=VM val=100000000 (0x5f5e100)
+      AVP: 'APN-Configuration-Profile'(1429) vend='3GPP'(10415) l=12 f=VM val=(grouped)
+         AVP: 'Context-Identifier'(1423) vend='3GPP'(10415) l=16 f=VM val=0 (0x0)
+         AVP: 'All-APN-Configurations-Included-Indicator'(1428) vend='3GPP'(10415) l=16 f=VM val='All_APN_CONFIGURATIONS_INCLUDED' (0 (0x0))
+         AVP: 'APN-Configuration'(1430) vend='3GPP'(10415) l=12 f=VM val=(grouped)
+            AVP: 'Context-Identifier'(1423) vend='3GPP'(10415) l=16 f=VM val=0 (0x0)
+            AVP: 'PDN-Type'(1456) vend='3GPP'(10415) l=16 f=VM val='IPv4' (0 (0x0))
+            AVP: 'Service-Selection'(493) l=8 f=-M val="default"
+            AVP: 'EPS-Subscribed-QoS-Profile'(1431) vend='3GPP'(10415) l=12 f=VM val=(grouped)
+               AVP: 'QoS-Class-Identifier'(1028) vend='3GPP'(10415) l=16 f=VM val='QCI_9' (9 (0x9))
+               AVP: 'Allocation-Retention-Priority'(1034) vend='3GPP'(10415) l=12 f=V- val=(grouped)
+                  AVP: 'Priority-Level'(1046) vend='3GPP'(10415) l=16 f=V- val=15 (0xf)
+                  AVP: 'Pre-emption-Capability'(1047) vend='3GPP'(10415) l=16 f=V- val='PRE_EMPTION_CAPABILITY_ENABLED' (0 (0x0))
+                  AVP: 'Pre-emption-Vulnerability'(1048) vend='3GPP'(10415) l=16 f=V- val='PRE_EMPTION_VULNERABILITY_ENABLED' (0 (0x0))
+            AVP: 'AMBR'(1435) vend='3GPP'(10415) l=12 f=VM val=(grouped)
+               AVP: 'Max-Requested-Bandwidth-UL'(516) vend='3GPP'(10415) l=16 f=VM val=50000000 (0x2faf080)
+               AVP: 'Max-Requested-Bandwidth-DL'(515) vend='3GPP'(10415) l=16 f=VM val=100000000 (0x5f5e100)
+            AVP: 'PDN-GW-Allocation-Type'(1438) vend='3GPP'(10415) l=16 f=VM val='STATIC' (0 (0x0))
+            AVP: 'MIP6-Agent-Info'(486) l=8 f=-M val=(grouped)
+               AVP: 'MIP-Home-Agent-Address'(334) l=8 f=-M val=172.26.17.183
+         AVP: 'APN-Configuration'(1430) vend='3GPP'(10415) l=12 f=VM val=(grouped)
+            AVP: 'Context-Identifier'(1423) vend='3GPP'(10415) l=16 f=VM val=0 (0x0)
+            AVP: 'PDN-Type'(1456) vend='3GPP'(10415) l=16 f=VM val='IPv4' (0 (0x0))
+            AVP: 'Service-Selection'(493) l=8 f=-M val="internet"
+            AVP: 'EPS-Subscribed-QoS-Profile'(1431) vend='3GPP'(10415) l=12 f=VM val=(grouped)
+               AVP: 'QoS-Class-Identifier'(1028) vend='3GPP'(10415) l=16 f=VM val='QCI_9' (9 (0x9))
+               AVP: 'Allocation-Retention-Priority'(1034) vend='3GPP'(10415) l=12 f=V- val=(grouped)
+                  AVP: 'Priority-Level'(1046) vend='3GPP'(10415) l=16 f=V- val=13 (0xd)
+                  AVP: 'Pre-emption-Capability'(1047) vend='3GPP'(10415) l=16 f=V- val='PRE_EMPTION_CAPABILITY_DISABLED' (1 (0x1))
+                  AVP: 'Pre-emption-Vulnerability'(1048) vend='3GPP'(10415) l=16 f=V- val='PRE_EMPTION_VULNERABILITY_ENABLED' (0 (0x0))
+            AVP: 'AMBR'(1435) vend='3GPP'(10415) l=12 f=VM val=(grouped)
+               AVP: 'Max-Requested-Bandwidth-UL'(516) vend='3GPP'(10415) l=16 f=VM val=50000000 (0x2faf080)
+               AVP: 'Max-Requested-Bandwidth-DL'(515) vend='3GPP'(10415) l=16 f=VM val=100000000 (0x5f5e100)
+            AVP: 'PDN-GW-Allocation-Type'(1438) vend='3GPP'(10415) l=16 f=VM val='STATIC' (0 (0x0))
+            AVP: 'MIP6-Agent-Info'(486) l=8 f=-M val=(grouped)
+               AVP: 'MIP-Home-Agent-Address'(334) l=8 f=-M val=172.26.17.183
+      AVP: 'Subscribed-Periodic-RAU-TAU-Timer'(1619) vend='3GPP'(10415) l=16 f=V- val=0 (0x0)
+   AVP: 'Result-Code'(268) l=12 f=-M val='DIAMETER_SUCCESS' (2001 (0x7d1))
+09:26:03  ERROR  mme.ng4T.com: Going to ZOMBIE state (no more activity)
+09:26:03  NOTI   'STATE_OPEN'	-> 'STATE_CLOSED'	'mme.ng4T.com'
+09:26:03  NOTI   'STATE_CLOSED'	-> 'STATE_ZOMBIE' (terminated)	'mme.ng4T.com'
+REST server on port [9080] shutdown
+09:26:04  FATAL! Initiating freeDiameter shutdown sequence (3)
+09:26:04  NOTI   freeDiameterd framework is stopping...
+09:26:04  NOTI   Shutting down server sockets...
+09:26:04  NOTI   Sending terminate signal to all peer connections
+09:26:04  ERROR  ERROR: in '(pthread_mutex_lock(&p->p_state_mtx))' :	Invalid argument

@@ -1,0 +1,906 @@
+[CONFIG] get parameters from libconfig /home/lixh/rcc.band7.tm1.nfapi.conf , debug flags: 0x00000000
+[CONFIG] function config_libconfig_init returned 0
+[CONFIG] config module libconfig loaded
+[LIBCONFIG] config: 1/1 parameters successfully set, (1 to default value)
+# /dev/cpu_dma_latency set to 0us
+[LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] log_config: 38/38 parameters successfully set, (32 to default value)
+[LIBCONFIG] log_config: 38/38 parameters successfully set, (38 to default value)
+[LIBCONFIG] log_config: 15/15 parameters successfully set, (15 to default value)
+[LIBCONFIG] log_config: 15/15 parameters successfully set, (15 to default value)
+log init done
+Reading in command-line options
+[LIBCONFIG] (root): 19/19 parameters successfully set, (16 to default value)
+[LIBCONFIG] (root): 4/4 parameters successfully set, (4 to default value)
+Getting ENBSParams
+[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] list L1s not found in config file /home/lixh/rcc.band7.tm1.nfapi.conf 
+[LIBCONFIG] list RUs not found in config file /home/lixh/rcc.band7.tm1.nfapi.conf 
+[LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+Configuration: nb_rrc_inst 1, nb_L1_inst 0, nb_ru 0
+[LIBCONFIG] loader: 2/2 parameters successfully set, (2 to default value)
+[LIBCONFIG] loader.NB_IoT: 2/2 parameters successfully set, (1 to default value)
+               nb_nbiot_rrc_inst 0, nb_nbiot_L1_inst 0, nb_nbiot_macrlc_inst 0
+[LIBCONFIG] TTracer: 4/4 parameters successfully set, (4 to default value)
+configuring for RAU/RRU
+CPU Freq is 2.100219 
+ITTI init, useMME: 1
+[0m[TMR]   Starting itti queue: TASK_UNKNOWN as task 0
+[0m[0m[TMR]   Starting itti queue: TASK_TIMER as task 1
+[0m[0m[TMR]   Starting itti queue: TASK_L2L1 as task 2
+[0m[0m[TMR]   Starting itti queue: TASK_BM as task 3
+[0m[0m[TMR]   Starting itti queue: TASK_PHY_ENB as task 4
+[0m[0m[TMR]   Starting itti queue: TASK_MAC_ENB as task 5
+[0m[0m[TMR]   Starting itti queue: TASK_RLC_ENB as task 6
+[0m[0m[TMR]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+[0m[0m[TMR]   Starting itti queue: TASK_PDCP_ENB as task 8
+[0m[0m[TMR]   Starting itti queue: TASK_RRC_ENB as task 9
+[0m[0m[TMR]   Starting itti queue: TASK_RAL_ENB as task 10
+[0m[0m[TMR]   Starting itti queue: TASK_S1AP as task 11
+[0m[0m[TMR]   Starting itti queue: TASK_X2AP as task 12
+[0m[0m[TMR]   Starting itti queue: TASK_SCTP as task 13
+[0m[0m[TMR]   Starting itti queue: TASK_ENB_APP as task 14
+[0m[0m[TMR]   Starting itti queue: TASK_FLEXRAN_AGENT as task 15
+[0m[0m[TMR]   Starting itti queue: TASK_PHY_UE as task 16
+[0m[0m[TMR]   Starting itti queue: TASK_MAC_UE as task 17
+[0m[0m[TMR]   Starting itti queue: TASK_RLC_UE as task 18
+[0m[0m[TMR]   Starting itti queue: TASK_PDCP_UE as task 19
+[0m[0m[TMR]   Starting itti queue: TASK_RRC_UE as task 20
+[0m[0m[TMR]   Starting itti queue: TASK_NAS_UE as task 21
+[0m[0m[TMR]   Starting itti queue: TASK_RAL_UE as task 22
+[0m[0m[TMR]   Starting itti queue: TASK_MSC as task 23
+[0m[0m[TMR]   Starting itti queue: TASK_GTPV1_U as task 24
+[0m[0m[TMR]   Starting itti queue: TASK_UDP as task 25
+[0m[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
+[0m[OPT]   OPT disabled
+[0mreported resolution = 1 ns
+[0m[HW]   Version: Branch: HEAD Abrev. Hash: 1c495cfdc Date: Fri Feb 22 17:51:55 2019 +0100
+[0mRuntime table
+NO deadline scheduler
+[0m[HW]   CPU Affinity of main() function is...  CPU_0  CPU_1  CPU_2  CPU_3  CPU_4  CPU_5  CPU_6  CPU_7 
+[0m[0m[PHY]   eNB_app_task() Task ready initialise structures
+[0m[0m[TMR]   Created Posix thread TASK_ENB_APP
+[0m[0m[PHY]   RC.eNB = 0x7fe7a0000b20
+[0m[LIBCONFIG] list L1s not found in config file /home/lixh/rcc.band7.tm1.nfapi.conf 
+[0m[PHY]   No L1s configuration found[0m[0m[PHY]   RC.eNB[0] = 0x7fe7a0000c20
+[0m[0m[TMR]   Created Posix thread TASK_X2AP
+[0m[0m[TMR]   Created Posix thread TASK_SCTP
+[0m[0m[SCTP]   Starting SCTP layer
+[0m[0m[TMR]   Created Posix thread TASK_S1AP
+[0m[0m[S1AP]   Starting S1AP layer
+[0m[0m[TMR]   Created Posix thread TASK_UDP
+[0m[0m[UDP]   Initializing UDP task interface
+[0m[0m[UDP]   Initializing UDP task interface: DONE
+[0m[0m[TMR]   Created Posix thread TASK_GTPV1_U
+[0m[0m[RRC]   Creating RRC eNB Task
+[0m[0m[GTPV1U]   Initializing GTPU stack 0x561d94534118
+[0m[0m[TMR]   Created Posix thread TASK_RRC_ENB
+[0m[0m[RRC]   Entering main loop of RRC message task
+[0mITTI tasks created
+[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] NETWORK_CONTROLLER: 6/6 parameters successfully set, (6 to default value)
+[0m[PHY]   RC.eNB[0][0] = 0x7fe7a63a7010
+[0m[LIBCONFIG] MACRLCs.[0]: 21/21 parameters successfully set, (11 to default value)
+[0m[MAC]   [MAIN] Init function start:nb_macrlc_inst=1
+[0m[0m[PDCP]   PDCP layer has been initialized
+[0m[0m[ENB_APP]   **************** vnf_port:50001
+[0m7141.148417: 0x04: 2805233408: [VNF] configure_nfapi_vnf() vnf.p7_vnfs[0].config:0x7fe7a00028d0 VNF ADDRESS:127.0.0.2:50001
+7141.148428: 0x04: 2805233408: [VNF] Creating VNF NFAPI start thread configure_nfapi_vnf
+7141.148464: 0x04: 2805233408: [VNF] Created VNF NFAPI start thread configure_nfapi_vnf
+[0m[ENB_APP]   **************** RETURNED FROM configure_nfapi_vnf() vnf_port:50001
+[0m[0m[ENB_APP]   sched mode = default 0 [default]
+[0m[0m[PHY]   eNB_app_task() RC.nb_L1_inst:0
+[0m[0m[ENB_APP]   Allocating eNB_RRC_INST for 1 instances
+[0m[0m[PHY]   eNB_app_task() RC.nb_inst:1 RC.rrc:0x7fe7a0004c90
+[0m[0m[PHY]   eNB_app_task() Creating RRC instance RC.rrc[0]:0x7fe7a0004cb0 (1 of 1)
+[0m7141.148472: 0x04: 2656896768: [VNF] VNF NFAPI thread - nfapi_vnf_start()vnf_start_thread
+(null)(null)[PHY]   ()
+(null)(null)(null)[PHY]   Starting P5 VNF connection on port 2656893968
+(null)(null)(null)[PHY]   P5 socket created... -1638073328
+(null)(null)(null)[PHY]   VNF Setting the SCTP_INITMSG
+(null)[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+(null)(null)[PHY]   IPV4 binding to port -1638073328
+(null)(null)(null)[PHY]   bind succeeded..-1638073328.
+(null)[LIBCONFIG] eNBs.[0]: 14/14 parameters successfully set, (7 to default value)
+[0m[ENB_APP]   RRC 0: Southbound Transport local_mac
+[0m(null)(null)[PHY]   listen succeeded...
+(null)[LIBCONFIG] eNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+[0m[RRC]   num component carriers 1 
+[0m[0m[RRC]   enb_config::RCconfig_RRC() parameter number: 0, total number of parameters: 107, ccspath: eNBs.[0].component_carriers.[0] 
+ 
+[0m[LIBCONFIG] eNBs.[0].component_carriers.[0]: 107/107 parameters successfully set, (21 to default value)
+phich.resource 0 (ONESIXTH), phich.duration 0 (NORMAL)
+[LIBCONFIG] eNBs.[0].srb1_parameters: 6/6 parameters successfully set, (0 to default value)
+[0m[ENB_APP]   Sending configuration message to RRC task
+[0m[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+[0m[RRC]   Received message RRC_CONFIGURATION_REQ
+[0m[0m[RRC]   [eNB 0] Received RRC_CONFIGURATION_REQ : 0x7fe7a000ae9c
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] Init...
+[0m[LIBCONFIG] eNBs.[0]: 14/14 parameters successfully set, (7 to default value)
+[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] Checking release 
+[0m[LIBCONFIG] eNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] Rel14 RRC detected, MBMS flag 0
+[0m[0m[RRC]   Configuring MIB (N_RB_DL 50,phich_Resource 0,phich_Duration 0)
+[0m[0m[RRC]   [MIB] systemBandwidth 3, phich_duration 0, phich_resource 0, sfn 0
+[0m[0m[RRC]   [eNB 0] Configuration SIB2/3, MBMS = 0
+[0m[0m[RRC]   [SIB2] With ITTI. Basic config of paging cycle DRX: radio frame cycle length 2, paging occasion number 2
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] Contents of SIB18 1/1 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB18 rxPool_sc_CP_Len: 0 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB18 sc_Period_r12: 0 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB18 data_CP_Len_r12: 0 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB18 prb_Num_r12: 20 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB18 prb_Start_r12: 5 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB18 prb_End_r12: 44 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB18 offsetIndicator: 0 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB18 subframeBitmap_choice_bs_buf: 00000000000000000000 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] Contents of SIB19 1/1 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 cp_Len_r12: 0 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 discPeriod_r12: 0 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 numRetx_r12: 1 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 numRepetition_r12: 2 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 tf_ResourceConfig_r12 prb_Num_r12: 5 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 tf_ResourceConfig_r12 prb_Start_r12: 3 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 tf_ResourceConfig_r12 prb_End_r12: 21 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 tf_ResourceConfig_r12 offsetIndicator: 0 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 tf_ResourceConfig_r12 subframeBitmap_choice_bs_buf: f0ffffffff 
+[0m[0m[MAC]   Configuring MIB for instance 0, CCid 0 : (band 7,N_RB_DL 50,Nid_cell 0,p 1,DL freq 2685000000,phich_config.resource 0, phich_config.duration 0)
+[0m[0m[MAC]   config_mib() NFAPI_CONFIG_REQUEST(num_tlv:16) DL_BW:50 UL_BW:50 Ncp 0,p_eNB 1,earfcn 3400,band 7,phich_resource 0 phich_duration 0 phich_power_offset 6000 PSS 6000 SSS 6000 PCI 0 PBCH repetition 0
+[0m[0m[MAC]   [CONFIG]SIB2/3 Contents (partial)
+[0m[0m[MAC]   [CONFIG]pusch_config_common.n_SB = 1
+[0m[0m[MAC]   [CONFIG]pusch_config_common.hoppingMode = 0
+[0m[0m[MAC]   [CONFIG]pusch_config_common.pusch_HoppingOffset = 0
+[0m[0m[MAC]   [CONFIG]pusch_config_common.enable64QAM = 0
+[0m[0m[MAC]   [CONFIG]pusch_config_common.groupHoppingEnabled = 1
+[0m[0m[MAC]   [CONFIG]pusch_config_common.groupAssignmentPUSCH = 0
+[0m[0m[MAC]   [CONFIG]pusch_config_common.sequenceHoppingEnabled = 0
+[0m[0m[MAC]   [CONFIG]pusch_config_common.cyclicShift  = 1
+[0m[LIBCONFIG] eNBs.[0].component_carriers.[0]: 107/107 parameters successfully set, (21 to default value)
+[LIBCONFIG] eNBs.[0].mme_ip_address.[0]: 5/5 parameters successfully set, (0 to default value)
+[LIBCONFIG] eNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] eNBs.[0].NETWORK_INTERFACES: 7/7 parameters successfully set, (0 to default value)
+[0m[GTPV1U]   Configuring GTPu
+[0m[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] eNBs.[0].NETWORK_INTERFACES: 3/3 parameters successfully set, (0 to default value)
+[0m[GTPV1U]   Configuring GTPu address : 192.168.248.194 -> c2f8a8c0
+[0m[0m[ENB_APP]   default drx 2
+[0m[0m[ENB_APP]   [eNB 0] eNB_app_register for instance 0
+[0m[0m[GTPV1U]   Tx UDP_INIT IP addr 192.168.248.194 (869)
+[0m[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] eNBs.[0]: 14/14 parameters successfully set, (7 to default value)
+[LIBCONFIG] eNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+[0m[UDP]   Initializing UDP for local address 192.168.248.194 with port 2153
+[0m[LIBCONFIG] eNBs.[0].component_carriers.[0]: 107/107 parameters successfully set, (21 to default value)
+[LIBCONFIG] list eNBs.[0].target_enb_x2_ip_address not found in config file /home/lixh/rcc.band7.tm1.nfapi.conf 
+[LIBCONFIG] eNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
+XFORMS
+[LIBCONFIG] eNBs.[0].NETWORK_INTERFACES: 7/7 parameters successfully set, (0 to default value)
+[0m[UDP]   Inserting new descriptor for task 24, sd 58
+[0m[0m[UDP]   Initializing UDP for local address 192.168.248.194 with port 2153: DONE
+[0m[0m[S1AP]   Registered new eNB[0] and macro eNB id 3584
+[0m[0m[S1AP]   [eNB 0] check the mme registration state
+[0m[0m[X2AP]   Registered new eNB[0] and macro eNB id 3584
+[0m[0m[X2AP]   eNB[0] eNB id 3584 acting as a listner (server)
+[0m[0m[SCTP]   sctp_bindx SCTP_BINDX_ADD_ADDR socket bound to : 192.168.247.101
+[0m[0m[SCTP]   Converted ipv4 address 192.168.247.102 to network type
+[0m[0m[SCTP]   connectx assoc_id  4 in progress..., used 1 addresses
+[0m[0m[SCTP]   Inserted new descriptor for sd 59 in list, nb elements 1, assoc_id 4
+[0m[0m[SCTP]   Received SCTP_INIT_MSG_MULTI_REQ
+[0m[0m[SCTP]   Creating new listen socket on port 36422 with
+[0m[0m[SCTP]   ipv4 addresses:
+[0m[0m[SCTP]   	- 192.168.247.101
+[0m[0m[SCTP]   Found data for descriptor 59
+[0m[0m[SCTP]   Received notification for sd 59, type 32769
+[0m[0m[SCTP]   Client association changed: 0
+[0m[0m[SCTP]   ----------------------
+[0m[0m[SCTP]   Peer addresses:
+[0m[0m[SCTP]       - [192.168.247.102]
+[0m[0m[SCTP]   ----------------------
+[0m[0m[SCTP]   ----------------------
+[0m[0m[SCTP]   SCTP Status:
+[0m[0m[SCTP]   assoc id .....: 4
+[0m[0m[SCTP]   state ........: 4
+[0m[0m[SCTP]   instrms ......: 2
+[0m[0m[SCTP]   outstrms .....: 2
+[0m[0m[SCTP]   fragmentation : 1452
+[0m[0m[SCTP]   pending data .: 0
+[0m[0m[SCTP]   unack data ...: 0
+[0m[0m[SCTP]   rwnd .........: 106496
+[0m[0m[SCTP]   peer info     :
+[0m[0m[SCTP]       state ....: 2
+[0m[0m[SCTP]       cwnd .....: 4380
+[0m[0m[SCTP]       srtt .....: 0
+[0m[0m[SCTP]       rto ......: 3000
+[0m[0m[SCTP]       mtu ......: 1500
+[0m[0m[SCTP]   ----------------------
+[0m[0m[SCTP]   Comm up notified for sd 59, assigned assoc_id 4
+[0m[0m[S1AP]   3584 -> 00e000
+[0m[0m[SCTP]   Successfully sent 59 bytes on stream 0 for assoc_id 4
+[0m[0m[SCTP]   Found data for descriptor 59
+[0m[0m[SCTP]   Received notification for sd 59, type 32777
+[0m[0m[SCTP]   Found data for descriptor 59
+[0m[0m[SCTP]   [4][59] Msg of length 27 received from port 36412, on stream 0, PPID 18
+[0m[0m[S1AP]   servedGUMMEIs.list.count 1
+[0m[0m[S1AP]   servedPLMNs.list.count 1
+[0m[0m[ENB_APP]   [eNB 0] Received S1AP_REGISTER_ENB_CNF: associated MME 1
+[0mWaiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+NFAPI*** - mutex and cond created - will block shortly for completion of PNF connection
+NFAPI MODE:VNF
+waiting for NFAPI PNF connection and population of global structure (main?)
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+(null)(null)[PHY]   Accepting connection from PNF...
+(null)(null)(null)[PHY]   PNF connection (fd:-1638073328) accepted from HƒìH=|.:-1638073328 
+(null)(null)(null)[PHY]   MALLOC nfapi_vnf_pnf_info_t for pnf_list pnf:0x7fe79e5cfc10
+(null)[VNF] pnf connection indication idx:0
+[VNF] RC.eNB[0][0]. Mod_id:0 CC_id:0 nb_CC[0]:1 abstraction_flag:0 single_thread_flag:0 if_inst:(nil)
+RC.eNB[0][0]->if_inst->PHY_config_req is not installed - install it
+oai_create_enb() Waiting for eNB to become configured (by RRC/PHY) - need to wait otherwise NFAPI messages won't contain correct values
+oai_create_enb() Waiting for eNB to become configured (by RRC/PHY) - need to wait otherwise NFAPI messages won't contain correct values
+Waiting for PHY_config_req
+[0m[PHY]   Configuring MIB for instance 0, CCid 0 : (band 7,N_RB_DL 50, N_RB_UL 50, Nid_cell 0,eNB_tx_antenna_ports 1,Ncp 0,DL freq 3400,phich_config.resource 0, phich_config.duration 0)
+[0m[0m[PHY]   Initializing frame parms for N_RB_DL 50, Ncp 0, osf 1
+[0m[0m[PHY]   lte_parms.c: Setting N_RB_DL to 50, ofdm_symbol_size 1024
+[0m[LIBCONFIG] loader.coding: 2/2 parameters successfully set, (1 to default value)
+[LOADER] library libcoding.so successfully loaded
+oai_create_enb() Waiting for eNB to become configured (by RRC/PHY) - need to wait otherwise NFAPI messages won't contain correct values
+oai_create_enb() Waiting for eNB to become configured (by RRC/PHY) - need to wait otherwise NFAPI messages won't contain correct values
+oai_create_enb() Waiting for eNB to become configured (by RRC/PHY) - need to wait otherwise NFAPI messages won't contain correct values
+[0m[PHY]   prach_config_common.rootSequenceIndex = 0
+[0m[0m[PHY]   prach_config_common.prach_ConfigInfo.prach_ConfigIndex = 0
+[0m[0m[PHY]   prach_config_common.prach_ConfigInfo.highSpeedFlag = 0
+[0m[0m[PHY]   prach_config_common.prach_ConfigInfo.zeroCorrelationZoneConfig = 1
+[0m[0m[PHY]   prach_config_common.prach_ConfigInfo.prach_FreqOffset = 2
+[0m[0m[PHY]   pusch_config_common.n_SB = 1
+[0m[0m[PHY]   pusch_config_common.hoppingMode = 0
+[0m[0m[PHY]   pusch_config_common.pusch_HoppingOffset = 0
+[0m[0m[PHY]   pusch_config_common.enable64QAM = 0
+[0m[0m[PHY]   pusch_config_common.ul_ReferenceSignalsPUSCH.groupHoppingEnabled = 1
+[0m[0m[PHY]   pusch_config_common.ul_ReferenceSignalsPUSCH.groupAssignmentPUSCH = 0
+[0m[0m[PHY]   pusch_config_common.ul_ReferenceSignalsPUSCH.sequenceHoppingEnabled = 0
+[0m[0m[PHY]   pusch_config_common.ul_ReferenceSignalsPUSCH.cyclicShift = 2
+[0m[0m[PHY]   eNB 0/0 configured
+[0m[0m[RRC]   [eNB] handover active state is 0 
+[0m[0m[RRC]   [eNB] eMBMS active state is 0 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] ENB:OPENAIR RRC IN....
+[0m[0m[RRC]   Received message GTPV1U_ENB_DELETE_TUNNEL_RESP
+[0moai_create_enb() eNB is now configured
+[0m[34m[PHY]    : config->pnf_list:0x561d93b10a41
+[0m[0m[34m[PHY]    : curr->p5_idx:-1817114047 p5_idx:1
+[0m(null)(null)[PHY]   VNF Association ID = -1638073328
+(null)(null)(null)[PHY]   VNF Receiver window size = -1638073328
+(null)(null)(null)[PHY]   VNF In Streams = -1638073328
+(null)(null)(null)[PHY]   VNF Out Streams = -1638073328
+(null)(null)(null)[PHY]   Received PNF_PARAM.reponse
+(null)[VNF] pnf param response idx:0 error:0
+[VNF] (PHY:0) phy_config_idx:0
+(null)(null)[PHY]   Adding phy p5_idx:-1638075040 phy_id:-1817114047
+(null)[VNF] (PHY:0) (RF0) 0
+[VNF] (PHY:0) (RF1) 0
+[VNF] (RF:0) rf_config_idx:0
+[VNF] (RF:1) rf_config_idx:0
+DJP:Hard coded num phy rf to 2
+[0m[34m[PHY]    : config->pnf_list:0x561d93b10a41
+[0m[0m[34m[PHY]    : curr->p5_idx:-1817114047 p5_idx:-1638075040
+[0m(null)(null)[PHY]   Received PNF_CONFIG_RESPONSE
+(null)[VNF] pnf config response idx:0 resp[header[phy_id:0 message_id:103 message_length:12]]
+[0m[34m[PHY]    : config->pnf_list:0x561d93b10a41
+[0m[0m[34m[PHY]    : curr->p5_idx:-1817114047 p5_idx:-1636500880
+[0m(null)(null)[PHY]   Received PNF_START_RESPONSE
+(null)[VNF] pnf start response idx:0 config:0x7fe7a0002a10 user_data:0x561d942f9120 p7_vnf[config:0x7fe7a00028d0 thread_started:0]
+[VNF] Sending NFAPI_PARAM_REQUEST phy_id:1
+[0m[34m[PHY]    : config->pnf_list:0x561d93b10a41
+[0m[0m[34m[PHY]    : curr->p5_idx:-1817114047 p5_idx:288
+[0m(null)(null)[PHY]   [VNF] Creating VNF NFAPI start thread 
+(null)(null)(null)[PHY]   Received PARAM_RESPONSE
+(null)(null)(null)[PHY]   PNF P7 IPv4 address: 
+(null)(null)(null)[PHY]   PNF P7 Port: -1638074720
+(null)[VNF] Received NFAPI_PARAM_RESP idx:0 phy_id:1
+[VNF] 0.1 pnf p7 127.0.0.1:32123 timing 32 10 0 10
+[VNF] Send NFAPI_CONFIG_REQUEST
+[VNF] DJP local_port:50001
+[VNF] DJP local_addr:127.0.0.2
+[VNF] Timing window:32
+[0m[34m[PHY]    : config->pnf_list:0x561d93b10a41
+[0m[0m[34m[PHY]    : curr->p5_idx:-1817114047 p5_idx:-1638073762
+[0m[VNF] Sent NFAPI_CONFIG_REQ num_tlv:43
+(null)(null)[PHY]   Received CONFIG_RESPONSE
+(null)[VNF] Received NFAPI_CONFIG_RESP idx:0 phy_id:1
+[VNF] Calling oai_enb_init()
+oai_enb_init() About to call init_eNB_afterRU()
+[0m[PHY]   init_eNB_afterRU() RC.nb_inst:1
+[0m[0m[PHY]   RC.nb_CC[inst]:1
+[0m[0m[PHY]   RC.nb_CC[inst:0][CC_id:0]:0x7fe7a63a7010
+[0m[0m[PHY]   [eNB 0] phy_init_lte_eNB() About to wait for eNB to be configured[0m[0m[PHY]   [eNB 0] Initializing DL_FRAME_PARMS : N_RB_DL 50, PHICH Resource 1, PHICH Duration 0 nb_antennas_tx:0 nb_antennas_rx:0 nb_antenna_ports_eNB:1 PRACH[rootSequenceIndex:0 prach_Config_enabled:1 configIndex:0 highSpeed:0 zeroCorrelationZoneConfig:1 freqOffset:2]
+[0mpcfich_reg : 0,25,50,75
+vnf_p7_start_thread()
+(null)(null)[PHY]   ()
+(null)(null)(null)[PHY]   Initialising VNF P7 port:2640108736
+(null)(null)(null)[PHY]   VNF P7 socket created...
+(null)(null)(null)[PHY]   VNF P7 setsockopt succeeded...
+(null)(null)(null)[PHY]   VNF P7 binding too :-1817114047
+(null)(null)(null)[PHY]   VNF P7 bind succeeded...
+(null)(null)(null)[PHY]   next subframe will start at -1654858560.-1817114047
+(null)[0m[PHY]   Mapping RX ports from 0 RUs to eNB 0
+[0m[0m[PHY]   Overwriting eNB->prach_vars.rxsigF[0]:0x7fe77d118f60
+[0m[0m[PHY]   Overwriting eNB->prach_vars_br.rxsigF.rxsigF[0]:(nil)
+[0m[0m[PHY]   Overwriting eNB->prach_vars_br.rxsigF.rxsigF[0]:(nil)
+[0m[0m[PHY]   Overwriting eNB->prach_vars_br.rxsigF.rxsigF[0]:(nil)
+[0m[0m[PHY]   Overwriting eNB->prach_vars_br.rxsigF.rxsigF[0]:(nil)
+[0m[0m[PHY]   eNB->num_RU:0
+[0m[0m[PHY]   init_eNB_afterRU() ************* DJP ***** eNB->frame_parms.nb_antennas_rx:0 - GOING TO HARD CODE TO 1[0m[0m[PHY]   init_eNB_afterRU() ************* DJP ***** eNB->frame_parms.nb_antennas_tx:0 - GOING TO HARD CODE TO 1[0m[0m[PHY]   inst 0, CC_id 0 : nb_antennas_rx 1
+[0m[0m[PHY]   Initialise transport
+[0m[0m[PHY]   init_eNB_proc(inst:0) RC.nb_CC[inst]:1 
+[0m[0m[PHY]   Initializing eNB processes instance:0 CC_id 0 
+[0m[0m[PHY]   Creating te_thread 0
+[0m[0m[PHY]   Creating te_thread 1
+[0m[0m[HW]   [SCHED][eNB] te_thread started on CPU 0, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 CPU_4 CPU_5 CPU_6 CPU_7 
+[0m[0m[PHY]   Creating te_thread 2
+[0m[0m[HW]   [SCHED][eNB] te_thread started on CPU 2, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 CPU_4 CPU_5 CPU_6 CPU_7 
+[0m[0m[PHY]   thread te created id=4200
+[0m[0m[PHY]   thread te created id=4201
+[0m[0m[HW]   [SCHED][eNB] te_thread started on CPU 0, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 CPU_4 CPU_5 CPU_6 CPU_7 
+[0m[0m[PHY]   eNB->single_thread_flag:0
+[0m[0m[HW]   [SCHED][eNB] td_thread started on CPU 2, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 CPU_4 CPU_5 CPU_6 CPU_7 
+[0m[0m[PHY]   thread te created id=4202
+[0m[0m[PHY]   thread td created id=4203
+[0m[0m[HW]   [SCHED][eNB] RXn_TXnp4_0
+ started on CPU 0, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 CPU_4 CPU_5 CPU_6 CPU_7 
+[0m[0m[HW]   [SCHED][eNB] RXn_TXnp4_1
+ started on CPU 2, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 CPU_4 CPU_5 CPU_6 CPU_7 
+[0m[0m[PHY]   thread rxtx created id=4204
+[0m[0m[PHY]   thread rxtx created id=4205
+[0m[0m[HW]   [SCHED][eNB] eNB_thread_prach started on CPU 0, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 CPU_4 CPU_5 CPU_6 CPU_7 
+[0m[0m[34m[PHY]    : config->pnf_list:0x561d93b10a41
+[0m[0m[34m[PHY]    : curr->p5_idx:-1817114047 p5_idx:-1806483296
+[0m[0m[HW]   [SCHED][eNB] eNB_thread_prach_br started on CPU 2, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 CPU_4 CPU_5 CPU_6 CPU_7 
+[0m[VNF] Send NFAPI_START_REQUEST idx:0 phy_id:1
+(null)(null)[PHY]   reallocing rx buffer -1654858720
+(null)(null)(null)[PHY]   Received START_RESPONSE
+(null)[VNF] Received NFAPI_START_RESP idx:0 phy_id:1
+(null)(null)[PHY]   (config:0x561d93b10a41 phy_id:-1638073488 pnf_addr:%s(config:%p phy_id:%d pnf_addr:%s pnf_p7_port:%d)
+ pnf_p7_port:16)
+(null)(null)(null)[PHY]   ()
+(null)(null)(null)[PHY]   (-1654859088/-1817114047) PNF to VNF !sync phy_id:-1610602248 (t1/2/3/4:2479668432,       16, 2640108432, 2640108240) txrx:2186123520 procT:2640108416 latency(us):-2108843776
+(null)(null)(null)[PHY]   (-1654859088/-1817114047) PNF to VNF !sync phy_id:-1610602248 (t1/2/3/4:2479668432,       16, 2640108432, 2640108240) txrx:2186123520 procT:2640108416 latency(us):-2108843776
+(null)(null)(null)[PHY]   (-1654859088/-1817114047) PNF to VNF !sync phy_id:-1610602248 (t1/2/3/4:2479668432,       16, 2640108432, 2640108240) txrx:2186123520 procT:2640108416 latency(us):-2108843776
+(null)(null)(null)[PHY]   (-1654859088/-1817114047) PNF to VNF !sync phy_id:-1610602248 (t1/2/3/4:2479668432,       16, 2640108432, 2640108240) txrx:2186123520 procT:2640108416 latency(us):-2108843776
+(null)(null)(null)[PHY]   (-1654859088/-1817114047) PNF to VNF !sync phy_id:-1610602248 (t1/2/3/4:2479668432,       16, 2640108432, 2640108240) txrx:2186123520 procT:2640108416 latency(us):-2108843776
+(null)(null)(null)[PHY]   (-1654859088/-1817114047) PNF to VNF !sync phy_id:-1610602248 (t1/2/3/4:2479668432,       16, 2640108432, 2640108240) txrx:2186123520 procT:2640108416 latency(us):-2108843776
+(null)(null)(null)[PHY]   (-1654859088/-1817114047) PNF to VNF !sync phy_id:-1610602248 (t1/2/3/4:2479668432,       16, 2640108432, 2640108240) txrx:2186123520 procT:2640108416 latency(us):-2108843776
+(null)(null)(null)[PHY]   (-1654859088/-1817114047) PNF to VNF !sync phy_id:-1610602248 (t1/2/3/4:2479668432,       16, 2640108432, 2640108240) txrx:2186123520 procT:2640108416 latency(us):-2108843776
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:-1654859056 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   (-1654859088/-1817114047) PNF to VNF !sync phy_id:-1610602248 (t1/2/3/4:2479668432,       16, 2640108432, 2640108240) txrx:2186123520 procT: 16 latency(us):-2108843776
+(null)(null)(null)[PHY]   (-1654859088/-1817114047) PNF to VNF !sync phy_id:-1610602248 (t1/2/3/4:2479668432,       16, 2640108432, 2640108240) txrx:2186123520 procT: 16 latency(us):-2108843776
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:-1654859056 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   (-1654859088/-1817114047) PNF to VNF !sync phy_id:-1610602248 (t1/2/3/4:2479668432,       16, 2640108432, 2640108240) txrx:2186123520 procT: 16 latency(us):-2108843776
+(null)(null)(null)[PHY]   (-1654859088/-1817114047) PNF to VNF !sync phy_id:-1610602248 (t1/2/3/4:2479668432,       16, 2640108432, 2640108240) txrx:2186123520 procT: 16 latency(us):-2108843776
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:-1654859056 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   (-1654859088/-1817114047) PNF to VNF !sync phy_id:-1610602248 (t1/2/3/4:2479668432,       16, 2640108432, 2640108240) txrx:2186123520 procT: 16 latency(us):-2108843776
+(null)(null)(null)[PHY]   (-1654859088/-1817114047) PNF to VNF !sync phy_id:-1610602248 (t1/2/3/4:2479668432,       16, 2640108432, 2640108240) txrx:2186123520 procT: 16 latency(us):-2108843776
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:-1654859056 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   (-1654859088/-1817114047) PNF to VNF !sync phy_id:-1610602248 (t1/2/3/4:2479668432,       16, 2640108432, 2640108240) txrx:2186123520 procT: 16 latency(us):-2108843776
+(null)(null)(null)[PHY]   (-1654859088/-1817114047) PNF to VNF !sync phy_id:-1610602248 (t1/2/3/4:2479668432,       16, 2640108432, 2640108240) txrx:2186123520 procT: 16 latency(us):-2108843776
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:-1654859056 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   () LARGE SFN/SF DELTA between PNF and VNF delta:-1817114047 VNF:1 PNF:-1815297816
+
+
+
+
+
+
+
+
+(null)(null)(null)[PHY]   (-1654859088/-1817114047) PNF to VNF !sync phy_id:-1610602248 (t1/2/3/4:2479668432,       16, 2640108432, 2640108240) txrx:2186123520 procT:2684365008 latency(us):-2108843776
+(null)(null)(null)[PHY]   (-1654859088/-1817114047) PNF to VNF !sync phy_id:-1610602248 (t1/2/3/4:2479668432,       16, 2640108432, 2640108240) txrx:2186123520 procT:2684365008 latency(us):-2108843776
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:-1654859056 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   (-1654859088/-1817114047) PNF to VNF !sync phy_id:-1610602248 (t1/2/3/4:2479668432,       16, 2640108432, 2640108240) txrx:2186123520 procT: 16 latency(us):-2108843776
+(null)(null)(null)[PHY]   (-1654859088/-1817114047) PNF to VNF !sync phy_id:-1610602248 (t1/2/3/4:2479668432,       16, 2640108432, 2640108240) txrx:2186123520 procT: 16 latency(us):-2108843776
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:-1654859056 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   (-1654859088/-1817114047) PNF to VNF !sync phy_id:-1610602248 (t1/2/3/4:2479668432,       16, 2640108432, 2640108240) txrx:2186123520 procT: 16 latency(us):-2108843776
+(null)(null)(null)[PHY]   (-1654859088/-1817114047) PNF to VNF !sync phy_id:-1610602248 (t1/2/3/4:2479668432,       16, 2640108432, 2640108240) txrx:2186123520 procT: 16 latency(us):-2108843776
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:-1654859056 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   (-1654859088/-1817114047) PNF to VNF !sync phy_id:-1610602248 (t1/2/3/4:2479668432,       16, 2640108432, 2640108240) txrx:2186123520 procT: 16 latency(us):-2108843776
+(null)(null)(null)[PHY]   (-1654859088/-1817114047) PNF to VNF !sync phy_id:-1610602248 (t1/2/3/4:2479668432,       16, 2640108432, 2640108240) txrx:2186123520 procT: 16 latency(us):-2108843776
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:-1654859056 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   (-1654859088/-1817114047) PNF to VNF !sync phy_id:-1610602248 (t1/2/3/4:2479668432,       16, 2640108432, 2640108240) txrx:2186123520 procT: 16 latency(us):-2108843776
+(null)(null)(null)[PHY]   (-1654859088/-1817114047) PNF to VNF !sync phy_id:-1610602248 (t1/2/3/4:2479668432,       16, 2640108432, 2640108240) txrx:2186123520 procT: 16 latency(us):-2108843776
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:-1654859056 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   (-1654859088/-1817114047) PNF to VNF !sync phy_id:-1610602248 (t1/2/3/4:2479668432,       16, 2640108432, 2640108240) txrx:2186123520 procT: 16 latency(us):-2108843776
+(null)(null)(null)[PHY]   (-1654859088/-1817114047) PNF to VNF !sync phy_id:-1610602248 (t1/2/3/4:2479668432,       16, 2640108432, 2640108240) txrx:2186123520 procT: 16 latency(us):-2108843776
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:-1654859056 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   ***** Adjusting VNF SFN/SF switching to filtered mode
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) 0.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520, 2640108208) txrx:1724704416 procT:509 latency(us):   0(avg:1067) offset(us):137547366 filtered(us):-1654859040 wrap[t1:2640108544 t2:16]
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) 0.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520, 2640108208) txrx:1724704416 procT:509 latency(us):   2(avg:1067) offset(us):139542337 filtered(us):-1654859040 wrap[t1:2640108544 t2:16]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:-1654859040 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) 0.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520, 2640108208) txrx:1724704416 procT:509 latency(us):   4(avg:1067) offset(us):141542604 filtered(us):-1654859040 wrap[t1:2640108544 t2:16]
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) 0.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520, 2640108208) txrx:1724704416 procT:509 latency(us):   6(avg:1067) offset(us):143539068 filtered(us):-1654859040 wrap[t1:2640108544 t2:16]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:-1654859040 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) 0.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520, 2640108208) txrx:1724704416 procT:510 latency(us):   6(avg:1067) offset(us):153536504 filtered(us):-1654859040 wrap[t1:2640108544 t2:16]
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) 0.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520, 2640108208) txrx:1724704416 procT:510 latency(us):   8(avg:1067) offset(us):155637293 filtered(us):-1654859040 wrap[t1:2640108544 t2:16]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:-1654859040 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) 0.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520, 2640108208) txrx:1724704416 procT:511 latency(us):   0(avg:1067) offset(us):157508406 filtered(us):-1654859040 wrap[t1:2640108544 t2:16]
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) 0.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520, 2640108208) txrx:1724704416 procT:511 latency(us):   2(avg:1067) offset(us):159528348 filtered(us):-1654859040 wrap[t1:2640108544 t2:16]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:-1654859040 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) 0.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520, 2640108208) txrx:1724704416 procT:512 latency(us):   2(avg:1067) offset(us):169520271 filtered(us):-1654859040 wrap[t1:2640108544 t2:16]
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) 0.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520, 2640108208) txrx:1724704416 procT:512 latency(us):   4(avg:1067) offset(us):171533765 filtered(us):-1654859040 wrap[t1:2640108544 t2:16]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:-1654859040 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) 0.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520, 2640108208) txrx:1724704416 procT:512 latency(us):   6(avg:1067) offset(us):173546030 filtered(us):-1654859040 wrap[t1:2640108544 t2:16]
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) 0.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520, 2640108208) txrx:1724704416 procT:512 latency(us):   8(avg:1067) offset(us):175546609 filtered(us):-1654859040 wrap[t1:2640108544 t2:16]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:-1654859040 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) 0.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520, 2640108208) txrx:1724704416 procT:513 latency(us):   8(avg:1067) offset(us):185554624 filtered(us):-1654859040 wrap[t1:2640108544 t2:16]
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) 0.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520, 2640108208) txrx:1724704416 procT:514 latency(us):   0(avg:1067) offset(us):187523454 filtered(us):-1654859040 wrap[t1:2640108544 t2:16]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:-1654859040 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) 0.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520, 2640108208) txrx:1724704416 procT:514 latency(us):   2(avg:1067) offset(us):189541022 filtered(us):-1654859040 wrap[t1:2640108544 t2:16]
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) 0.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520, 2640108208) txrx:1724704416 procT:514 latency(us):   4(avg:1067) offset(us):191540389 filtered(us):-1654859040 wrap[t1:2640108544 t2:16]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:-1654859040 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) 0.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520, 2640108208) txrx:1724704416 procT:515 latency(us):   4(avg:1067) offset(us):201554127 filtered(us):-1654859040 wrap[t1:2640108544 t2:16]
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) 0.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520, 2640108208) txrx:1724704416 procT:515 latency(us):   6(avg:1067) offset(us):203525045 filtered(us):-1654859040 wrap[t1:2640108544 t2:16]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:-1654859040 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) 0.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520, 2640108208) txrx:1724704416 procT:515 latency(us):   8(avg:1067) offset(us):205535973 filtered(us):-1654859040 wrap[t1:2640108544 t2:16]
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) 0.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520, 2640108208) txrx:1724704416 procT:516 latency(us):   0(avg:1067) offset(us):207546097 filtered(us):-1654859040 wrap[t1:2640108544 t2:16]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:-1654859040 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) 0.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520, 2640108208) txrx:1724704416 procT:517 latency(us):   0(avg:1067) offset(us):217535287 filtered(us):-1610602248 wrap[t1:2640108544 t2:2640108416]
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) 0.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520, 2640108208) txrx:1724704416 procT:517 latency(us):   2(avg:1067) offset(us):219534679 filtered(us):-1610602248 wrap[t1:2640108544 t2:2640108416]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:-1610602248 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   VNF P7 In Sync with phy (phy_id:-1654859040)
+(null)[VNF] SYNC ACHIEVED
+[VNF] Signal to OAI main code that it can go
+(null)(null)[PHY]   (-1654859104/-1817114047) VNF phy_id:5172 Apply minor insync adjustment -1815298288us for 16 subframes (sf_offset_filtered:-1654858880) -1654859072 -2108843776 -1654859056 NEW:-2108843776 CURR:517 adjustment:2
+(null)NFAPI: got sync (main?)
+START MAIN THREADS
+RC.nb_L1_inst:0
+wait_eNBs()
+Waiting for eNB L1 instances to all get configured ... sleeping 50ms (nb_L1_inst 0)
+(null)(null)[PHY]   [VNF] AFTER adjustment - Subframe minor adjustment -1654858560us sf_start.tv_nsec:-1817114047 duration:1125731611
+(null)[VNF] subframe indication 5175
+[0m[1;31m[MAC]   SCHED_MODE=0
+[0m(null)(null)[PHY]   [VNF] AFTER adjustment - Subframe minor adjustment -1654858560us sf_start.tv_nsec:-1817114047 duration:2640109024
+(null)(null)(null)[PHY]   [VNF] AFTER adjustment - Subframe minor adjustment -1654858560us sf_start.tv_nsec:-1817114047 duration:2640109024
+(null)(null)(null)[PHY]   [VNF] AFTER adjustment - Subframe minor adjustment -1654858560us sf_start.tv_nsec:-1817114047 duration:2640109024
+(null)(null)(null)[PHY]   [VNF] AFTER adjustment - Subframe minor adjustment -1654858560us sf_start.tv_nsec:-1817114047 duration:2640109024
+(null)(null)(null)[PHY]   [VNF] AFTER adjustment - Subframe minor adjustment -1654858560us sf_start.tv_nsec:-1817114047 duration:2640109024
+(null)eNB L1 are configured
+About to Init RU threads RC.nb_RU:0
+wait RUs
+[0m[ENB_APP]   Waiting for RUs to be configured ... RC.ru_mask:00
+[0m[0m[PHY]   RUs configured
+[0mALL RUs READY!
+RC.nb_RU:0
+ALL RUs ready - init eNBs
+NFAPI mode - DO NOT call init_eNB_afterRU()
+ALL RUs ready - ALL eNBs ready
+[VNF] RACH_IND eNB:0x7fe7a63a7010 sfn_sf:5401 number_of_preambles:1
+preamble[0]: rnti:02 preamble:4 timing_advance:0
+[0m[RRC]   [FRAME 00541][eNB][MOD 00][RNTI 4463] Decoding UL CCCH 5e.3f.1b.90.c0.86 (0x7fe7a000a17e)
+[0m[0m[RRC]   [FRAME 00541][eNB][MOD 00][RNTI 4463] Accept new connection from UE random UE identity (0x80cb9f1e3000000) MME code 0 TMSI 0 cause 3
+[0m[0m[RRC]   [FRAME 00541][eNB][MOD 00][RNTI 4463] [RAPROC] Logical Channel DL-CCCH, Generating LTE_RRCConnectionSetup (bytes 29)
+[0m[0m[RRC]   [FRAME 00541][eNB][MOD 00][RNTI 4463]CALLING RLC CONFIG SRB1 (rbid 1)
+[0madd new uid is 0 4463
+
+[0m[PDCP]   [FRAME 00541][eNB][MOD 00][RNTI 4463][SRB 01]  Action ADD  LCID 1 (SRB id 1) configured with SN size 5 bits and RLC AM
+[0m[0m[RLC]   [FRAME 00541][eNB][MOD 00][RNTI 4463] [SRB 1] rrc_rlc_add_rlc  SRB
+[0m[0m[RLC]   [FRAME 00541][eNB][MOD 00][RNTI 4463][SRB AM 01][CONFIGURE] max_retx_threshold 4 poll_pdu 4 poll_byte 65535 t_poll_retransmit 80 t_reordering 35 t_status_prohibit 0
+[0m[0m[PHY]   DCI 1A: round 0, mcs 7, rballoc 96, rv 0, rnti 4463, harq process 2
+[0m[0m[MAC]   [eNB 0][RAPROC] CC_id 0 Frame 542 Canceled RA procedure for UE rnti 4463
+[0m(null)(null)[PHY]   reallocing rx buffer -1654858720
+(null)[0m[RRC]   [eNB 0] Frame 544: received a DCCH 1 message on SRB 1 with Size 53 from UE 4463
+[0m[0m[RRC]   Received message RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 4463] Received on DCCH 1 RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 4463] [RAPROC] Logical Channel UL-DCCH, processing LTE_RRCConnectionSetupComplete from UE (SRB1 Active)
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 4463] UE State = RRC_CONNECTED 
+[0m[0m[S1AP]   [eNB 0] Chose MME '(null)' (assoc_id 4) through selected PLMN Identity index 0 MCC 1 MNC 1
+[0m[0m[S1AP]   Found usable eNB_ue_s1ap_id: 0x06692d 420141(10)
+[0m[0m[SCTP]   Successfully sent 96 bytes on stream 1 for assoc_id 4
+[0m[0m[SCTP]   Found data for descriptor 59
+[0m[0m[SCTP]   Received notification for sd 59, type 32777
+[0m[0m[SCTP]   Found data for descriptor 59
+[0m[0m[SCTP]   [4][59] Msg of length 62 received from port 36412, on stream 1, PPID 18
+[0m[0m[RRC]   Received message S1AP_DOWNLINK_NAS
+[0m[0m[RRC]   [eNB 0] Received S1AP_DOWNLINK_NAS: ue_initial_id 1, eNB_ue_s1ap_id 420141
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 4463][SRB AM 01] RLC_AM_DATA_REQ size 44 Bytes,  NB SDU 1 current_sdu_index=0 next_sdu_index=1 conf 0 mui 0 vtA 0 vtS 0
+[0m[0m[RRC]   [eNB 0] Frame 546: received a DCCH 1 message on SRB 1 with Size 14 from UE 4463
+[0m[0m[RRC]   Received message RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 4463] Received on DCCH 1 RRC_DCCH_DATA_IND
+[0m[0m[SCTP]   Successfully sent 59 bytes on stream 1 for assoc_id 4
+[0m[0m[SCTP]   Found data for descriptor 59
+[0m[0m[SCTP]   Received notification for sd 59, type 32777
+[0m[0m[SCTP]   Found data for descriptor 59
+[0m[0m[SCTP]   [4][59] Msg of length 40 received from port 36412, on stream 1, PPID 18
+[0m[0m[RRC]   Received message S1AP_DOWNLINK_NAS
+[0m[0m[RRC]   [eNB 0] Received S1AP_DOWNLINK_NAS: ue_initial_id 1, eNB_ue_s1ap_id 420141
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 4463][SRB AM 01] RLC_AM_DATA_REQ size 22 Bytes,  NB SDU 2 current_sdu_index=1 next_sdu_index=2 conf 0 mui 0 vtA 1 vtS 1
+[0m[0m[RRC]   [eNB 0] Frame 548: received a DCCH 1 message on SRB 1 with Size 22 from UE 4463
+[0m[0m[RRC]   Received message RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 4463] Received on DCCH 1 RRC_DCCH_DATA_IND
+[0m[0m[SCTP]   Successfully sent 67 bytes on stream 1 for assoc_id 4
+[0m[0m[SCTP]   Found data for descriptor 59
+[0m[0m[SCTP]   Received notification for sd 59, type 32777
+[0m[0m[SCTP]   Found data for descriptor 59
+[0m[0m[SCTP]   [4][59] Msg of length 192 received from port 36412, on stream 1, PPID 18
+[0m[0m[S1AP]   Received NAS message with the E_RAB setup procedure
+[0m[0m[RRC]   Received message S1AP_INITIAL_CONTEXT_SETUP_REQ
+[0m[0m[RRC]   [eNB 0] Received S1AP_INITIAL_CONTEXT_SETUP_REQ: ue_initial_id 1, eNB_ue_s1ap_id 420141, nb_of_e_rabs 1
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 4463] rrc_eNB_process_GTPV1U_CREATE_TUNNEL_RESP tunnel (3396329693, 3396329693) bearer UE context index 0, msg index 0, id 5, gtp addr len 4 
+[0m[0m[RRC]   [eNB 0][UE 4463] Selected security algorithms (0x7fe7940043a4): 0, 2, changed
+[0m[0m[RRC]   [eNB 0][UE 4463] Saved security key 8C344D7D96D8C097331EBE77708691B366EE33A0A68E534764B5DEFAE418A687
+[0m[0m[RRC]   [0m
+KeNB:8c 34 4d 7d 96 d8 c0 97 33 1e be 77 70 86 91 b3 66 ee 33 a0 a6 8e 53 47 64 b5 de fa e4 18 a6 87 
+[0m[RRC]   [0m
+KRRCenc:b0 15 aa 46 b7 2c dd b9 65 87 1a 00 3b 7f c5 eb 1f a7 ba c1 6e 6c 6c 4c e5 a5 12 9c 31 10 a4 de 
+[0m[RRC]   [0m
+KRRCint:24 dc 4a 01 d5 b5 ad 58 1f ba d1 e7 ce 6a 11 b9 f2 47 64 d6 82 f0 ed d1 03 8b bd 13 6e c4 8f 69 
+[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 4463] Logical Channel DL-DCCH, Generate SecurityModeCommand (bytes 3)
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 4463][SRB AM 01] RLC_AM_DATA_REQ size 8 Bytes,  NB SDU 3 current_sdu_index=2 next_sdu_index=3 conf 0 mui 0 vtA 2 vtS 2
+[0m[0m[RRC]   [eNB 0] Frame 551: received a DCCH 1 message on SRB 1 with Size 2 from UE 4463
+[0m[0m[RRC]   Received message RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 4463] Received on DCCH 1 RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 4463] received securityModeComplete on UL-DCCH 1 from UE
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 4463] Logical Channel DL-DCCH, Generate UECapabilityEnquiry (bytes 3)
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 4463][SRB AM 01] RLC_AM_DATA_REQ size 8 Bytes,  NB SDU 4 current_sdu_index=3 next_sdu_index=4 conf 0 mui 1 vtA 3 vtS 3
+[0m[0m[RRC]   [eNB 0] Frame 551: received a DCCH 1 message on SRB 1 with Size 19 from UE 4463
+[0m[0m[RRC]   Received message RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 4463] Received on DCCH 1 RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 4463] received ueCapabilityInformation on UL-DCCH 1 from UE
+[0m[0m[RRC]   got UE capabilities for UE 4463
+[0m[0m[RRC]   RRCConnectionReconfiguration Encoded 1029 bits (129 bytes)
+[0m[0m[RRC]   [eNB 0] Frame 0, Logical Channel DL-DCCH, Generate LTE_RRCConnectionReconfiguration (bytes 129, UE id 4463)
+[0m[0m[SCTP]   Successfully sent 46 bytes on stream 1 for assoc_id 4
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 4463][SRB AM 01] RLC_AM_DATA_REQ size 134 Bytes,  NB SDU 5 current_sdu_index=4 next_sdu_index=5 conf 0 mui 2 vtA 4 vtS 4
+[0m[0m[RRC]   [eNB 0] Frame 553: received a DCCH 1 message on SRB 1 with Size 2 from UE 4463
+[0m[0m[RRC]   Received message RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 4463] Received on DCCH 1 RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 4463] UE State = RRC_RECONFIGURED (default DRB, xid 0)
+[0m[0m[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI 4463][SRB 02]  Action ADD  LCID 2 (SRB id 2) configured with SN size 5 bits and RLC AM
+[0m[0m[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI 4463][DRB 01]  Action ADD  LCID 3 (DRB id 1) configured with SN size 12 bits and RLC UM
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 4463] [SRB 2] rrc_rlc_add_rlc  SRB
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 4463][SRB AM 02][CONFIGURE] max_retx_threshold 32 poll_pdu 8 poll_byte 16960 t_poll_retransmit 15 t_reordering 35 t_status_prohibit 10
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 4463] [DRB 1] rrc_rlc_add_rlc  DRB
+[0m[0m[RRC]   [eNB 0] Frame  0 CC 0 : SRB2 is now active
+[0m[0m[RRC]   [eNB 0] Frame  0 : Logical Channel UL-DCCH, Received LTE_RRCConnectionReconfigurationComplete from UE rnti 4463, reconfiguring DRB 1/LCID 3
+[0m[0m[RRC]   [eNB 0] Frame  0 : Logical Channel UL-DCCH, Received LTE_RRCConnectionReconfigurationComplete from UE 0, reconfiguring DRB 1/LCID 3
+[0m[0m[S1AP]   initial_ctxt_resp_p: e_rab ID 5, enb_addr 192.168.248.194, SIZE 4 
+[0m[0m[SCTP]   Successfully sent 40 bytes on stream 1 for assoc_id 4
+[0m[0m[RRC]   [eNB 0] Frame 555: received a DCCH 2 message on SRB 2 with Size 16 from UE 4463
+[0m[0m[RRC]   Received message RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 4463] Received on DCCH 2 RRC_DCCH_DATA_IND
+[0m[0m[SCTP]   Successfully sent 61 bytes on stream 1 for assoc_id 4
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       32) txrx:2147485904 procT:560 latency(us):   2(avg:1067) offset(us):650297534 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)[0m[1;31m[PHY]   hoping not to have mis-match between CRC ind and RX ind - hopefully the missing message is coming shortly rx_ind:0(SFN/SF:05756) crc_ind:1(SFN/SF:05784) UL_info(SFN/SF):05785
+[0m(null)(null)[PHY]   reallocing rx buffer -1654858720
+(null)[0m[SCTP]   Found data for descriptor 59
+[0m[0m[SCTP]   Received notification for sd 59, type 32777
+[0m(null)(null)[PHY]   () LARGE SFN/SF DELTA between PNF and VNF delta:-1817114047 VNF:-1654858784 PNF:-1815297816
+
+
+
+
+
+
+
+
+(null)[0m[93m[PHY]   [eNB] sfn/sf:6000 old_sfn/sf:6000 proc[rx:5999]
+[0m(null)(null)[PHY]   () LARGE SFN/SF DELTA between PNF and VNF delta:-1817114047 VNF:-1654858784 PNF:-1815297816
+
+
+
+
+
+
+
+
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       96) txrx:2147485936 procT:611 latency(us):   4(avg:1068) offset(us):162325575 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:0 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)Sending sync to all threads
+TYPE <CTRL-C> TO TERMINATE
+Entering ITTI signals handler
+[0m[MAC]   UE  rnti 4463 : in synch, PHR 21 dB DL CQI 0 PUSCH SNR 63 PUCCH SNR 63
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:662 latency(us):   6(avg:1068) offset(us):674303020 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)[0m[93m[PHY]   [eNB] sfn/sf:7000 old_sfn/sf:7000 proc[rx:6999]
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:713 latency(us):   8(avg:1069) offset(us):186304454 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:0 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:765 latency(us):   0(avg:1069) offset(us):698302196 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)[0m[MAC]   UE  rnti 4463 : in synch, PHR 21 dB DL CQI 0 PUSCH SNR 63 PUCCH SNR 63
+[0m[0m[93m[PHY]   [eNB] sfn/sf:8000 old_sfn/sf:8000 proc[rx:7999]
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:816 latency(us):   2(avg:1070) offset(us):210296202 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:0 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)[0m[1;31m[PHY]   hoping not to have mis-match between CRC ind and RX ind - hopefully the missing message is coming shortly rx_ind:0(SFN/SF:08563) crc_ind:1(SFN/SF:08591) UL_info(SFN/SF):08592
+[0m[0m[1;31m[PHY]   hoping not to have mis-match between CRC ind and RX ind - hopefully the missing message is coming shortly rx_ind:0(SFN/SF:08591) crc_ind:1(SFN/SF:08619) UL_info(SFN/SF):08620
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:867 latency(us):   4(avg:1070) offset(us):722317460 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)[0m[MAC]   UE  rnti 4463 : in synch, PHR 21 dB DL CQI 0 PUSCH SNR 63 PUCCH SNR 63
+[0m[0m[93m[PHY]   [eNB] sfn/sf:9000 old_sfn/sf:9000 proc[rx:8999]
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:918 latency(us):   6(avg:1071) offset(us):234294054 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:0 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   () LARGE SFN/SF DELTA between PNF and VNF delta:-1817114047 VNF:-1654858784 PNF:-1815297816
+
+
+
+
+
+
+
+
+(null)(null)(null)[PHY]   () LARGE SFN/SF DELTA between PNF and VNF delta:-1817114047 VNF:-1654858784 PNF:-1815297816
+
+
+
+
+
+
+
+
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:969 latency(us):   8(avg:1071) offset(us):746304022 filtered(us):-1610602248 wrap[t1:2640108544 t2:2640108416]
+(null)[0m[93m[PHY]   [eNB] sfn/sf:10000 old_sfn/sf:10000 proc[rx:9999]
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:1021 latency(us):   0(avg:1072) offset(us):258327111 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:0 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)[0m[MAC]   UE  rnti 4463 : in synch, PHR 21 dB DL CQI 0 PUSCH SNR 63 PUCCH SNR 63
+[0m[0m[RRC]   UE rnti 4463 failure timer 0/8
+[0m[0m[93m[PHY]   [eNB] sfn/sf:00 old_sfn/sf:00 proc[rx:10239]
+[0m(null)(null)[PHY]   () LARGE SFN/SF DELTA between PNF and VNF delta:-1817114047 VNF:-1654858784 PNF:-1815297816
+
+
+
+
+
+
+
+
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT: 48 latency(us):   2(avg:1072) offset(us):769341999 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)(null)(null)[PHY]   () LARGE SFN/SF DELTA between PNF and VNF delta:-1817114047 VNF:-1654858784 PNF:-1815297816
+
+
+
+
+
+
+
+
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT: 99 latency(us):   4(avg:1073) offset(us):282295640 filtered(us):-1610602248 wrap[t1:2640108544 t2:2640108416]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:-1610602248 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   (-1654859104/-1817114047) VNF phy_id:80 Apply minor insync adjustment -1815298288us for 16 subframes (sf_offset_filtered:-1654858880) -1654859072 -2108843776 -1610602248 NEW:-1815298520 CURR:99 adjustment:4
+(null)(null)(null)[PHY]   [VNF] AFTER adjustment - Subframe minor adjustment -1654858560us sf_start.tv_nsec:-1817114047 duration:2640109024
+(null)(null)(null)[PHY]   [VNF] AFTER adjustment - Subframe minor adjustment -1654858560us sf_start.tv_nsec:-1817114047 duration:2640109024
+(null)(null)(null)[PHY]   [VNF] AFTER adjustment - Subframe minor adjustment -1654858560us sf_start.tv_nsec:-1817114047 duration:2640109024
+(null)(null)(null)[PHY]   [VNF] AFTER adjustment - Subframe minor adjustment -1654858560us sf_start.tv_nsec:-1817114047 duration:2640109024
+(null)[0m[93m[PHY]   [eNB] sfn/sf:1000 old_sfn/sf:1000 proc[rx:999]
+[0m(null)(null)[PHY]   [VNF] AFTER adjustment - Subframe minor adjustment -1654858560us sf_start.tv_nsec:-1817114047 duration:2499182128
+(null)(null)(null)[PHY]   [VNF] AFTER adjustment - Subframe minor adjustment -1654858560us sf_start.tv_nsec:-1817114047 duration:2640109024
+(null)(null)(null)[PHY]   [VNF] AFTER adjustment - Subframe minor adjustment -1654858560us sf_start.tv_nsec:-1817114047 duration:2640109024
+(null)(null)(null)[PHY]   [VNF] AFTER adjustment - Subframe minor adjustment -1654858560us sf_start.tv_nsec:-1817114047 duration:2640109024
+(null)(null)(null)[PHY]   [VNF] AFTER adjustment - Subframe minor adjustment -1654858560us sf_start.tv_nsec:-1817114047 duration:2640109024
+(null)(null)(null)[PHY]   [VNF] AFTER adjustment - Subframe minor adjustment -1654858560us sf_start.tv_nsec:-1817114047 duration:2640109024
+(null)(null)(null)[PHY]   [VNF] AFTER adjustment - Subframe minor adjustment -1654858560us sf_start.tv_nsec:-1817114047 duration:2640109024
+(null)(null)(null)[PHY]   [VNF] AFTER adjustment - Subframe minor adjustment -1654858560us sf_start.tv_nsec:-1817114047 duration:2640109024
+(null)(null)(null)[PHY]   () LARGE SFN/SF DELTA between PNF and VNF delta:-1817114047 VNF:-1654858784 PNF:-1815297816
+
+
+
+
+
+
+
+
+(null)[0m[MAC]   UE  rnti 4463 : in synch, PHR 21 dB DL CQI 0 PUSCH SNR 63 PUCCH SNR 63
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:150 latency(us):   6(avg:1073) offset(us):794163122 filtered(us):-1610602248 wrap[t1:2640108544 t2:2640108416]
+(null)[0m[93m[PHY]   [eNB] sfn/sf:2000 old_sfn/sf:2000 proc[rx:1999]
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:201 latency(us):   8(avg:1074) offset(us):306186400 filtered(us):-1610602248 wrap[t1:2640108544 t2:2640108416]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:-1610602248 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:253 latency(us):   0(avg:1074) offset(us):818180663 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)[0m[MAC]   UE  rnti 4463 : in synch, PHR 21 dB DL CQI 0 PUSCH SNR 63 PUCCH SNR 63
+[0m[0m[93m[PHY]   [eNB] sfn/sf:3000 old_sfn/sf:3000 proc[rx:2999]
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:304 latency(us):   2(avg:1075) offset(us):330158491 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:0 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:355 latency(us):   4(avg:1075) offset(us):842211769 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)[0m[MAC]   UE  rnti 4463 : in synch, PHR 21 dB DL CQI 0 PUSCH SNR 63 PUCCH SNR 63
+[0m[0m[93m[PHY]   [eNB] sfn/sf:4000 old_sfn/sf:4000 proc[rx:3999]
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:406 latency(us):   6(avg:1076) offset(us):354160110 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:0 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:457 latency(us):   8(avg:1076) offset(us):866215963 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)[0m[93m[PHY]   [eNB] sfn/sf:5000 old_sfn/sf:5000 proc[rx:4999]
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:509 latency(us):   0(avg:1077) offset(us):378205431 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:0 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)[0m[MAC]   UE  rnti 4463 : in synch, PHR 21 dB DL CQI 0 PUSCH SNR 63 PUCCH SNR 63
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:560 latency(us):   2(avg:1077) offset(us):890188651 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)[0m[93m[PHY]   [eNB] sfn/sf:6000 old_sfn/sf:6000 proc[rx:5999]
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:611 latency(us):   4(avg:1078) offset(us):402148038 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:0 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)[0m[MAC]   UE  rnti 4463 : in synch, PHR 21 dB DL CQI 0 PUSCH SNR 63 PUCCH SNR 63
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:662 latency(us):   6(avg:1078) offset(us):914160469 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)[0m[93m[PHY]   [eNB] sfn/sf:7000 old_sfn/sf:7000 proc[rx:6999]
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:713 latency(us):   8(avg:1079) offset(us):426180241 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:0 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:765 latency(us):   0(avg:1079) offset(us):938159038 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)[0m[MAC]   UE  rnti 4463 : in synch, PHR 21 dB DL CQI 0 PUSCH SNR 63 PUCCH SNR 63
+[0m[0m[93m[PHY]   [eNB] sfn/sf:8000 old_sfn/sf:8000 proc[rx:7999]
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:816 latency(us):   2(avg:1080) offset(us):450159166 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:0 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:867 latency(us):   4(avg:1080) offset(us):962173971 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)[0m[MAC]   UE  rnti 4463 : in synch, PHR 21 dB DL CQI 0 PUSCH SNR 63 PUCCH SNR 63
+[0m[0m[93m[PHY]   [eNB] sfn/sf:9000 old_sfn/sf:9000 proc[rx:8999]
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:918 latency(us):   6(avg:1081) offset(us):474184566 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:0 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:969 latency(us):   8(avg:1081) offset(us):986207938 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)[0m[93m[PHY]   [eNB] sfn/sf:10000 old_sfn/sf:10000 proc[rx:9999]
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:1021 latency(us):   0(avg:1082) offset(us):498161446 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:0 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)[0m[MAC]   UE  rnti 4463 : in synch, PHR 21 dB DL CQI 0 PUSCH SNR 63 PUCCH SNR 63
+[0m[0m[RRC]   UE rnti 4463 failure timer 0/8
+[0m[0m[93m[PHY]   [eNB] sfn/sf:00 old_sfn/sf:00 proc[rx:10239]
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT: 48 latency(us):   2(avg:1083) offset(us):10164784 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT: 99 latency(us):   4(avg:1083) offset(us):522181720 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:0 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)[0m[93m[PHY]   [eNB] sfn/sf:1000 old_sfn/sf:1000 proc[rx:999]
+[0m[0m[MAC]   UE  rnti 4463 : in synch, PHR 21 dB DL CQI 0 PUSCH SNR 63 PUCCH SNR 63
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:150 latency(us):   6(avg:1084) offset(us):34155762 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)[0m[93m[PHY]   [eNB] sfn/sf:2000 old_sfn/sf:2000 proc[rx:1999]
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:201 latency(us):   8(avg:1084) offset(us):546172727 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:0 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:253 latency(us):   0(avg:1085) offset(us):58165247 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)[0m[MAC]   UE  rnti 4463 : in synch, PHR 21 dB DL CQI 0 PUSCH SNR 63 PUCCH SNR 63
+[0m[0m[93m[PHY]   [eNB] sfn/sf:3000 old_sfn/sf:3000 proc[rx:2999]
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:304 latency(us):   2(avg:1085) offset(us):570175269 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:0 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:355 latency(us):   4(avg:1086) offset(us):82168251 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)[0m[MAC]   UE  rnti 4463 : in synch, PHR 21 dB DL CQI 0 PUSCH SNR 63 PUCCH SNR 63
+[0m[0m[93m[PHY]   [eNB] sfn/sf:4000 old_sfn/sf:4000 proc[rx:3999]
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:406 latency(us):   6(avg:1086) offset(us):595066065 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:0 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:457 latency(us):   8(avg:1087) offset(us):106166175 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)[0m[93m[PHY]   [eNB] sfn/sf:5000 old_sfn/sf:5000 proc[rx:4999]
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:509 latency(us):   0(avg:1087) offset(us):618183573 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:0 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)[0m[MAC]   UE  rnti 4463 : in synch, PHR 21 dB DL CQI 0 PUSCH SNR 63 PUCCH SNR 63
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:560 latency(us):   2(avg:1088) offset(us):130176223 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)[0m[93m[PHY]   [eNB] sfn/sf:6000 old_sfn/sf:6000 proc[rx:5999]
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:611 latency(us):   4(avg:1088) offset(us):642166832 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:0 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)[0m[MAC]   UE  rnti 4463 : in synch, PHR 21 dB DL CQI 0 PUSCH SNR 63 PUCCH SNR 63
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:662 latency(us):   6(avg:1089) offset(us):154167034 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)[0m[1;31m[PHY]   hoping not to have mis-match between CRC ind and RX ind - hopefully the missing message is coming shortly rx_ind:0(SFN/SF:06784) crc_ind:1(SFN/SF:06812) UL_info(SFN/SF):06813
+[0m[0m[93m[PHY]   [eNB] sfn/sf:7000 old_sfn/sf:7000 proc[rx:6999]
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:713 latency(us):   8(avg:1089) offset(us):666184121 filtered(us):-1610602248 wrap[t1:2640108544 t2:2640108416]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:-1610602248 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:765 latency(us):   0(avg:1090) offset(us):178172788 filtered(us):-1610602248 wrap[t1:2640108544 t2:2640108416]
+(null)[0m[MAC]   UE  rnti 4463 : in synch, PHR 21 dB DL CQI 0 PUSCH SNR 63 PUCCH SNR 63
+[0m[0m[93m[PHY]   [eNB] sfn/sf:8000 old_sfn/sf:8000 proc[rx:7999]
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:816 latency(us):   2(avg:1090) offset(us):690155826 filtered(us):-1610602248 wrap[t1:2640108544 t2:2640108416]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:-1610602248 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:867 latency(us):   4(avg:1091) offset(us):202164516 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)[0m[MAC]   UE  rnti 4463 : in synch, PHR 21 dB DL CQI 0 PUSCH SNR 63 PUCCH SNR 63
+[0m[0m[93m[PHY]   [eNB] sfn/sf:9000 old_sfn/sf:9000 proc[rx:8999]
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:918 latency(us):   6(avg:1091) offset(us):714162526 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:0 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:969 latency(us):   8(avg:1092) offset(us):226163739 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)[0m[93m[PHY]   [eNB] sfn/sf:10000 old_sfn/sf:10000 proc[rx:9999]
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT:1021 latency(us):   0(avg:1092) offset(us):738163172 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:0 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)[0m[MAC]   UE  rnti 4463 : in synch, PHR 21 dB DL CQI 0 PUSCH SNR 63 PUCCH SNR 63
+[0m[0m[RRC]   UE rnti 4463 failure timer 0/8
+[0m[0m[93m[PHY]   [eNB] sfn/sf:00 old_sfn/sf:00 proc[rx:10239]
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT: 48 latency(us):   2(avg:1093) offset(us):250172796 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:2147485928 procT: 99 latency(us):   4(avg:1093) offset(us):762179512 filtered(us):       0 wrap[t1:2640108544 t2:0]
+(null)(null)(null)[PHY]   PNF to VNF phy_id:-1654859056 adjustment-1817114047 phy->previous_sf_offset_filtered:0 phy->previous_sf_offset_filtered:-1815298520 phy->sf_offset_trend:16
+(null)[0m[93m[PHY]   [eNB] sfn/sf:1000 old_sfn/sf:1000 proc[rx:999]
+[0m[0m[MAC]   UE  rnti 4463 : in synch, PHR 21 dB DL CQI 0 PUSCH SNR 63 PUCCH SNR 63
+[0m(null)(null)[PHY]   (-1654859152/-1817114047) -1610602248.-1815298760 PNF to VNF phy_id:16 (t1/2/3/4:2640108368, 2640108176, 2186123520,       80) txrx:1724704416 procT:150 latency(us):   6(avg:1094) offset(us):274173406 filtered(us):       0 wrap[t1:2640108544 t2:16]
+(null)[0m[40;36m[PHY]   sctp_recvmsg: unhandled mode with flags 0x9e5cfb30
+[0m[0m[40;36m[PHY]   Disconnected socket
+[0m[VNF] pnf disconnection indication idx:0
+(null)(null)[PHY]   (phy_id:-1817114047)
+(null)(null)(null)[PHY]   (phy_id:-1817114047) deleting connection info
+(null)Linux signal Interrupt...
+/home/lixh/enb_folder/targets/RT/USER/lte-softmodem.c:275 signal_handler() Exiting OAI softmodem: softmodem starting exit procedure
+

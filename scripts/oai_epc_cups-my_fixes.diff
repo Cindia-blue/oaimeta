@@ -1,0 +1,77 @@
+Code baseline:
+   # git clone https://github.com/OPENAIRINTERFACE/openair-cn-cups.git
+   # git show
+        commit 4fee0d1d2a44a7f4d4d974be5cc06d302202559e (HEAD -> master, origin/master, origin/HEAD)
+        Author: gauthier <lionel.gauthier@eurecom.fr>
+        Date:   Mon May 27 12:59:45 2019 +0200
+
+#git diff
+
+diff --git a/src/pgwc/pgw_config.cpp b/src/pgwc/pgw_config.cpp
+index e8e4e35..f88c5b9 100644
+--- a/src/pgwc/pgw_config.cpp
++++ b/src/pgwc/pgw_config.cpp
+@@ -544,14 +544,20 @@ void pgw_config::display ()
+ //------------------------------------------------------------------------------
+ bool pgw_config::is_dotted_apn_handled(const string& apn, const pdn_type_t& pdn_type)
+ {
++  Logger::pgwc_app().trace( " ***** is_dotted_apn_handled() num_apn %d", pgw_cfg.num_apn);
+   for (int i = 0; i < pgw_cfg.num_apn; i++) {
+-    if (0 == apn.compare(pgw_cfg.apn[i].apn_label)) {
++    Logger::pgwc_app().trace( " ***** is_dotted_apn_handled() i: %d, apn: %s, pgw_cfg.apn[i].apn_label: %s, pgw_cfg.apn[i].apn %s", i, apn.c_str(), pgw_cfg.apn[i].apn_label.c_str(), p
+gw_cfg.apn[i].apn.c_str());
++//    if (0 == apn.compare(pgw_cfg.apn[i].apn_label)) {
++    if (0 == apn.compare(pgw_cfg.apn[i].apn)) {
+       // TODO refine
++      Logger::pgwc_app().trace( " ***** is_dotted_apn_handled() pdn_type: %d, pgw_cfg.apn[i].pdn_type.pdn_type: %d", pdn_type.pdn_type, pgw_cfg.apn[i].pdn_type.pdn_type);
+       if (pdn_type.pdn_type == pgw_cfg.apn[i].pdn_type.pdn_type) {
++        Logger::pgwc_app().trace( " ***** is_dotted_apn_handled() return true");
+         return true;
+       }
+     }
+   }
++  Logger::pgwc_app().trace( " ***** is_dotted_apn_handled() return false");
+   return false;
+ }
+
+diff --git a/src/pgwc/pgw_paa_dynamic.hpp b/src/pgwc/pgw_paa_dynamic.hpp
+index 7110e12..42a01dd 100755
+--- a/src/pgwc/pgw_paa_dynamic.hpp
++++ b/src/pgwc/pgw_paa_dynamic.hpp
+@@ -191,14 +191,19 @@ public:
+   {
+     if (pool_id >= 0) {
+       uint32_t uint32pool_id = uint32_t(pool_id);
++
++      Logger::pgwc_app().info(" ***** add_pool: pool_id %d", uint32pool_id);
++
+       if (!ipv4_pools.count(uint32pool_id)) {
+         ipv4_pool pool(first, range);
+         ipv4_pools[uint32pool_id] = pool;
++        Logger::pgwc_app().info(" ***** add_pool: ipv4_pools");
+       }
+       if (!apns.count(apn_label)) {
+         apn_dynamic_pools adp = {};
+         adp.add_ipv4_pool_id(uint32pool_id);
+         apns[apn_label] = adp;
++        Logger::pgwc_app().info(" ***** add_pool: apns apn_label %s", apn_label.c_str());
+       }
+     }
+   }
+diff --git a/src/sgwc/sgwc_eps_bearer_context.cpp b/src/sgwc/sgwc_eps_bearer_context.cpp
+index 428a780..4a0b5a8 100644
+--- a/src/sgwc/sgwc_eps_bearer_context.cpp
++++ b/src/sgwc/sgwc_eps_bearer_context.cpp
+@@ -76,6 +76,12 @@ void sgw_eps_bearer_context::erase_pdn_connection(std::shared_ptr<sgw_pdn_connec
+ //------------------------------------------------------------------------------
+ shared_ptr<sgw_pdn_connection>  sgw_eps_bearer_context::insert_pdn_connection(sgw_pdn_connection* p)
+ {
++  Logger::sgwc_app().trace( " ***** apn_in_use:  %s", p->apn_in_use.c_str());
++  if (p->apn_in_use[0] < 32) {
++    Logger::sgwc_app().trace( " ***** Changing apn_in_use from %s", p->apn_in_use.c_str());
++    p->apn_in_use.erase(0, 1);
++    Logger::sgwc_app().trace( " ***** Changing apn_in_use to %s", p->apn_in_use.c_str());
++  }
+   kpdn_t k(p->apn_in_use, (uint8_t)p->pdn_type.pdn_type);
+   shared_ptr<sgw_pdn_connection> s = shared_ptr<sgw_pdn_connection>(p);
+   std::pair<std::map<kpdn_t, shared_ptr<sgw_pdn_connection>>::iterator,bool> ret;
