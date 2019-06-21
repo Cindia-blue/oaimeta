@@ -1,0 +1,15 @@
+# Let NetworkManager manage all devices on this system
+network:
+        version: 2
+        renderer: NetworkManager
+        ethernets:
+                ens160:
+                        dhcp4: true
+                ens224:
+                        addresses: [192.168.247.102/24]
+                ens193:
+                        addresses: [192.168.247.111/24]
+                ens256:
+                        addresses: [192.168.248.159/24]
+                ens257:
+                        dhcp4: true
