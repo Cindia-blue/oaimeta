@@ -24,6 +24,26 @@ ENS224=0
 continue
 fi
 
+if [[ $epc_ip =~ ^192\.168\.248\.[0-9]{1,3}$ ]]; then
+result=$(grep -r "ens193" /usr/local/etc/oai/spgw_u.conf)
+if [[ "$result" == "" ]]
+then
+continue
+fi
+sed -i -e "s/ens256/$NIC/g" /usr/local/etc/oai/spgw_u.conf
+sed -i -e "s/192.168.248.159/$epc_ip/g" /usr/local/etc/oai/spgw_u.conf
+fi
+
+if [[ $epc_ip =~ ^12\.1\.1\.[0-9]{1,3}$ ]]; then
+result=$(grep -r "ens193" /usr/local/etc/oai/spgw_u.conf)
+if [[ "$result" == "" ]]
+then
+continue
+fi
+sed -i -e "s/ens257/$NIC/g" /usr/local/etc/oai/spgw_u.conf
+sed -i -e "s/12.1.1.11/$epc_ip/g" /usr/local/etc/oai/spgw_u.conf
+fi
+
 if [[ $epc_ip =~ ^192\.168\.247\.[0-9]{1,3}$ ]]; then
 sed -i -e "s/ens193/$NIC/g" /usr/local/etc/oai/mme.conf
 sed -i -e "s/ens193/$NIC/g" /usr/local/etc/oai/spgw_c.conf
@@ -35,16 +55,6 @@ ifconfig $NIC:p5c 172.58.58.101 up
 ifconfig $NIC:s11 172.16.1.104 up
 ifconfig $NIC:m11 172.16.1.102 up
 ifconfig $NIC:m10 192.168.10.110 up
-fi
-
-if [[ $epc_ip =~ ^192\.168\.248\.[0-9]{1,3}$ ]]; then
-sed -i -e "s/ens256/$NIC/g" /usr/local/etc/oai/spgw_u.conf
-sed -i -e "s/192.168.248.159/$epc_ip/g" /usr/local/etc/oai/spgw_u.conf
-fi
-
-if [[ $epc_ip =~ ^12\.1\.1\.[0-9]{1,3}$ ]]; then
-sed -i -e "s/ens257/$NIC/g" /usr/local/etc/oai/spgw_u.conf
-sed -i -e "s/12.1.1.11/$epc_ip/g" /usr/local/etc/oai/spgw_u.conf
 fi
 
 echo ${nics[$epc_ip]}
