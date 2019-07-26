@@ -8,7 +8,7 @@ declare -A nics
 declare -A ips
 
 ifconfig lo: 127.0.0.2 netmask 255.0.0.0 up
-sed -i -e "s/192.168.247.102/192.168.247.112/g" /root/rcc.band7.tm1.nfapi.conf
+sed -i -e "s/192.168.247.102/192.168.247.2/g" /root/rcc.band7.tm1.nfapi.conf
 for NIC in $(ls /sys/class/net)
 do
 epc_ip=`ifconfig $NIC | grep "inet " | awk '{print $2}'`
