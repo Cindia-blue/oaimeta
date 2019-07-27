@@ -16,11 +16,21 @@ ips[$NIC]=$epc_ip
 nics[$epc_ip]=$NIC
 
 if [[ $epc_ip =~ ^192\.168\.247\.[0-9]{1,3}$ ]]; then
+result=$(grep -r "192.168.247.101" /root/rcc.band7.tm1.nfapi.conf)
+if [[ "$result" == "" ]]
+then
+continue
+fi
 sed -i -e "s/ens224/${NIC}/g" /root/rcc.band7.tm1.nfapi.conf
 sed -i -e "s/192.168.247.101/$epc_ip/g" /root/rcc.band7.tm1.nfapi.conf
 fi
 
 if [[ $epc_ip =~ ^192\.168\.248\.[0-9]{1,3}$ ]]; then
+result2=$(grep -r "192.168.248.194" /root/rcc.band7.tm1.nfapi.conf)
+if [[ "$result2" == "" ]]
+then
+continue
+fi
 sed -i -e "s/ens256/$NIC/g" /root/rcc.band7.tm1.nfapi.conf
 sed -i -e "s/192.168.248.194/$epc_ip/g" /root/rcc.band7.tm1.nfapi.conf
 fi
