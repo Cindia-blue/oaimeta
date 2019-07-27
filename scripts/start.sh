@@ -22,6 +22,6 @@ screen -x -S $screen_c -p 0 -X stuff '\n'
 
 screen_u="spgwu"
 screen -dmS $screen_u
-cmd3="~/oaimeta/scripts/u_start.sh";
+cmd4="~/oaimeta/scripts/u_start.sh";
 screen -x -S $screen_u -p 0 -X stuff "$cmd4"
 screen -x -S $screen_u -p 0 -X stuff '\n'
