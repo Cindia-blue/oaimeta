@@ -1,6 +1,16 @@
 #!/bin/bash
 
-cd /root/enb_folder
-source oaienv
-cd cmake_targets
-sudo -E ./lte_build_oai/build/lte-softmodem -O /root/rcc.band7.tm1.nfapi.conf
+
+screen_enb="enb"
+screen -dmS $screen_enb
+cmd1="~/oaimeta/scripts/enb_start.sh";
+screen -x -S $screen_enb -p 0 -X stuff "$cmd1"
+screen -x -S $screen_enb -p 0 -X stuff '\n'
+
+
+screen_ue="ue"
+screen -dmS $screen_ue
+cmd2="~/oaimeta/scripts/ue_start.sh";
+screen -x -S $screen_ue -p 0 -X stuff "$cmd2"
+screen -x -S $screen_ue -p 0 -X stuff '\n'
+
