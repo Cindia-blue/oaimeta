@@ -9,7 +9,7 @@ declare -A ips
 
 sed -i -e 's/10.118.81.1/127.0.0.53/g' /usr/local/etc/oai/spgw_c.conf
 sed -i -e 's/10.118.81.2/127.0.0.53/g' /usr/local/etc/oai/spgw_c.conf
-# sed -i -e "s/192.168.247.102/192.168.247.112/g" /usr/local/etc/oai/mme.conf
+sed -i -e "s/192.168.247.102/192.168.247.2/g" /usr/local/etc/oai/mme.conf
 
 for NIC in $(ls /sys/class/net)
 do
