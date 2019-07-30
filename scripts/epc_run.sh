@@ -9,7 +9,10 @@ declare -A ips
 
 sed -i -e 's/10.118.81.1/127.0.0.53/g' /usr/local/etc/oai/spgw_c.conf
 sed -i -e 's/10.118.81.2/127.0.0.53/g' /usr/local/etc/oai/spgw_c.conf
-sed -i -e "s/192.168.247.102/192.168.247.2/g" /usr/local/etc/oai/mme.conf
+
+cd /root/openair-cn/scripts
+./hss_cfg.sh
+./mme_cfg.sh
 
 for NIC in $(ls /sys/class/net)
 do
@@ -25,21 +28,11 @@ continue
 fi
 
 if [[ $epc_ip =~ ^192\.168\.248\.[0-9]{1,3}$ ]]; then
-result=$(grep -r "ens193" /usr/local/etc/oai/spgw_u.conf)
-if [[ "$result" == "" ]]
-then
-continue
-fi
 sed -i -e "s/ens256/$NIC/g" /usr/local/etc/oai/spgw_u.conf
 sed -i -e "s/192.168.248.159/$epc_ip/g" /usr/local/etc/oai/spgw_u.conf
 fi
 
 if [[ $epc_ip =~ ^12\.1\.1\.[0-9]{1,3}$ ]]; then
-result=$(grep -r "ens193" /usr/local/etc/oai/spgw_u.conf)
-if [[ "$result" == "" ]]
-then
-continue
-fi
 sed -i -e "s/ens257/$NIC/g" /usr/local/etc/oai/spgw_u.conf
 sed -i -e "s/12.1.1.11/$epc_ip/g" /usr/local/etc/oai/spgw_u.conf
 fi
