@@ -27,3 +27,6 @@ screen -dmS $screen_u
 cmd4="~/oaimeta/scripts/u_start.sh";
 screen -x -S $screen_u -p 0 -X stuff "$cmd4"
 screen -x -S $screen_u -p 0 -X stuff '\n'
+
+echo -e "\n"
+# screen -r mme
