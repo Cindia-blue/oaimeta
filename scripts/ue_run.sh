@@ -21,7 +21,7 @@ if [[ "$result" == "" ]]
 then
 continue
 fi
-sed -i -e "s/ens224/${NIC}/g" /root/rcc.band7.tm1.nfapi.conf
+sed -i -e "s/ens224/${nics[$epc_ip]}/g" /root/rcc.band7.tm1.nfapi.conf
 sed -i -e "s/192.168.247.101/$epc_ip/g" /root/rcc.band7.tm1.nfapi.conf
 fi
 
@@ -31,7 +31,7 @@ if [[ "$result2" == "" ]]
 then
 continue
 fi
-sed -i -e "s/ens256/$NIC/g" /root/rcc.band7.tm1.nfapi.conf
+sed -i -e "s/ens256/${nics[$epc_ip]}/g" /root/rcc.band7.tm1.nfapi.conf
 sed -i -e "s/192.168.248.194/$epc_ip/g" /root/rcc.band7.tm1.nfapi.conf
 fi
 
