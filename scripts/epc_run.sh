@@ -29,7 +29,7 @@ sed -i -e "s/ens256/${nics[$epc_ip]}/g" /usr/local/etc/oai/spgw_u.conf
 sed -i -e "s/192.168.248.159/$epc_ip/g" /usr/local/etc/oai/spgw_u.conf
 fi
 
-if [[ $epc_ip =~ ^12\.2\.1\.[0-9]{1,3}$ ]]; then
+if [[ $epc_ip =~ ^12\.1\.1\.[0-9]{1,3}$ ]]; then
 sed -i -e "s/ens257/${nics[$epc_ip]}/g" /usr/local/etc/oai/spgw_u.conf
 sed -i -e "s/12.2.1.12/$epc_ip/g" /usr/local/etc/oai/spgw_u.conf
 fi
