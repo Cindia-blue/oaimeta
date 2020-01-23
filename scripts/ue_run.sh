@@ -6,8 +6,10 @@ ENS224=1
 # ENS257="12.1.1.11"
 declare -A nics
 declare -A ips
-
 ifconfig lo: 127.0.0.2 netmask 255.0.0.0 up
+
+sleep 1
+
 sed -i -e "s/192.168.247.102/192.168.247.2/g" /root/rcc.band7.tm1.nfapi.conf
 for NIC in $(ls /sys/class/net)
 do

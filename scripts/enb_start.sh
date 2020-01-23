@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sh /etc/rc.local
+
 sleep 10
 screen_enb="enb"
 screen -dmS $screen_enb
