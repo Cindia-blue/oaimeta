@@ -6,8 +6,10 @@ ENS224=1
 # ENS257="12.1.1.11"
 declare -A nics
 declare -A ips
-
 ifconfig lo: 127.0.0.2 netmask 255.0.0.0 up
+
+sleep 1
+
 sed -i -e "s/192.168.247.102/192.168.247.2/g" /root/rcc.band7.tm1.nfapi.conf
 for NIC in $(ls /sys/class/net)
 do
@@ -16,21 +18,11 @@ ips[$NIC]=$epc_ip
 nics[$epc_ip]=$NIC
 
 if [[ $epc_ip =~ ^192\.168\.247\.[0-9]{1,3}$ ]]; then
-result=$(grep -r "192.168.247.101" /root/rcc.band7.tm1.nfapi.conf)
-if [[ "$result" == "" ]]
-then
-continue
-fi
 sed -i -e "s/ens224/${nics[$epc_ip]}/g" /root/rcc.band7.tm1.nfapi.conf
 sed -i -e "s/192.168.247.101/$epc_ip/g" /root/rcc.band7.tm1.nfapi.conf
 fi
 
 if [[ $epc_ip =~ ^192\.168\.248\.[0-9]{1,3}$ ]]; then
-result2=$(grep -r "192.168.248.194" /root/rcc.band7.tm1.nfapi.conf)
-if [[ "$result2" == "" ]]
-then
-continue
-fi
 sed -i -e "s/ens256/${nics[$epc_ip]}/g" /root/rcc.band7.tm1.nfapi.conf
 sed -i -e "s/192.168.248.194/$epc_ip/g" /root/rcc.band7.tm1.nfapi.conf
 fi
